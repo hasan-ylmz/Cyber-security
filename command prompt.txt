@@ -1,7 +1,7 @@
  	(İlk baştaki kısım kendi notlarımdır . Diğer komutlar standartlardır. Diğer komutlar kısmından standart komut satırı için gerekli olan komutlara ulaşabilirsiniz. En alt kısımda ise powershell için kullanabileceğiniz komutlar bulunmaktadır. )
 
 									
-									Command prompt 
+									-- Command prompt -- 
 	-- > cd  komutu 
 İki işleve yarar. Birncisi var olan dizini gösterir. Çalışma diznimizi geliştirmekte kullanıyoruz.
 
@@ -155,7 +155,7 @@ Color kısmında bize yardımcı olur .
 			--------------------------------------------------------------------------------------------------------
 
 
-				DERS -2
+									DERS -2
 	
 	--> attrib
 Dosyaların okunup okunamadığını , gizli olup olmadığını sistem dosyası mı yoksa arşivlenmiş bir dosya olup olmadığını anlamamızı sağlar .
@@ -323,7 +323,7 @@ verifier.exe Sürücü monitörünü açar.
 
 drwtsn32.exe Sorun tanıma aracını açar.
 
------->>>> (BAKILACAK GALİBA 12 GB RAM VAR )dxdiag.exe DirectX sürümünüzü öğrenmenizi sağlar.
+dxdiag.exe DirectX sürümünüzü öğrenmenizi sağlar.
 
 mobsync.exe Senkronizasyon sağlar.
 
@@ -414,7 +414,10 @@ wuaucpl.cpl...Automatic Updates Control Panel
 
 
 
-Dosya Adı Sistem Aracı
+								  	-- Dosya Adı Sistem Aracı --
+
+
+
 
 wscui.cpl Windows XP Güvenlik Duvarı
 
@@ -464,7 +467,10 @@ secpol.msc Yerel Güvenlik ilkesi
 
 
 
-Sistem araçlarına hızlı erişim
+									-- Sistem araçlarına hızlı erişim --
+
+
+
 
 narrator.exe:Sesli okuyucu.
 
@@ -494,7 +500,9 @@ dosyaları listeler.
 
 
 
--Netstat-
+										  -Netstat-
+										  
+										  
 
 
 netstat -n: Adresleri ve Bağlantı Noktalarının Numaralarını Sayısal Biçimde Gösterir
