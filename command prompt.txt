@@ -1,4 +1,8 @@
-	  -- > cd  komutu 
+ 	(İlk baştaki kısım kendi notlarımdır . Diğer komutlar standartlardır. Diğer komutlar kısmından standart komut satırı için gerekli olan komutlara ulaşabilirsiniz. En alt kısımda ise powershell için kullanabileceğiniz komutlar bulunmaktadır. )
+
+									
+									Command prompt 
+	-- > cd  komutu 
 İki işleve yarar. Birncisi var olan dizini gösterir. Çalışma diznimizi geliştirmekte kullanıyoruz.
 
 	  --> cd..
@@ -251,8 +255,12 @@ Tanımlanmış depolama alanlarıdır . Cd-row bir volume 'dür .
 
 
 
----------------------------------------------------------------------------------------------------------------------------------
-Diğer komutlar
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+										Diğer komutlar
+
+
 calc.exe Hesap makinesini açar.
 
 diskmgmt.msc Disk yönetimini açar.
@@ -486,7 +494,7 @@ dosyaları listeler.
 
 
 
-
+-Netstat-
 
 
 netstat -n: Adresleri ve Bağlantı Noktalarının Numaralarını Sayısal Biçimde Gösterir
@@ -547,8 +555,7 @@ sysedit - Sistem sekli Editörü
 
 win.ini - Windows Yükleme Bilgisi
 
-winver - su anki Windows Sürümünü Görüntüle
-alicisi Görüntüle
+winver - su anki Windows Sürümünü Görüntüle alicisi Görüntüle
 
 cmd - Komut satirini çalistir
 
@@ -628,6 +635,9 @@ repair-bde = BitLocker kullanarak bozulmuş veya şifresi unutulmuş sürücüy�
 sfc = Önemli Windows dosyalarını taramaya veya değiştirmeye yarar.
 cipher/w:c = Sürücüdeki silinemeyen dosyaları siler.
 driverquery = Yanlış yüklenmiş sürücüyü bulmak için sürücü listesini açmaya yarar.
+
+-Shutdown-
+
 shutdown/r/o = Bilgisayara res attıktan sonra Gelişmiş Başlangıç Ayarları’nı açmaya yarar
 shutdown -l = O anki kullanıcı oturumunu kapatmaya yarar.
 shutdown -f = O anki açık olan uygulamaları kapatmaya yarar.
