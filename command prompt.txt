@@ -1,4 +1,5 @@
- 	(İlk baştaki kısım kendi notlarımdır . Diğer komutlar standartlardır. Diğer komutlar kısmından standart komut satırı için gerekli olan komutlara ulaşabilirsiniz. En alt kısımda ise powershell için kullanabileceğiniz komutlar bulunmaktadır. )
+ 	(İlk baştaki kısım kendi notlarımdır . Diğer komutlar standartlardır. Diğer komutlar kısmından standart komut satırı için gerekli olan komutlara ulaşabilirsiniz. 
+	En alt kısımda ise powershell için kullanabileceğiniz komutlar bulunmaktadır.  )
 
 									
 									-- Command prompt -- 
