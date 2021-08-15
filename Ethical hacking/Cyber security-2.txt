@@ -77,10 +77,13 @@
  
  x.com sitesine ait public ip adresini tespit etmek oldukça basit (ping x.com)
 
- Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
-Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde        aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
+ Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.
+ Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
+Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? 
+Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
  
- NOT : SSL kullanan siteler genellikle shared ip adresi üzerinden değil, dedicated ip adresi üzerinden yayın yaptıkları için arama sonucunda farklı bir site çıkmayabilir ancak o sunucu da farklı siteler host ediliyor olabilir.
+ NOT : SSL kullanan siteler genellikle shared ip adresi üzerinden değil, dedicated ip adresi üzerinden yayın yaptıkları için arama sonucunda 
+ farklı bir site çıkmayabilir   ancak o sunucu da farklı siteler host ediliyor olabilir.
  
 
  Bu taramaları yapabilmek için 
@@ -222,29 +225,5 @@ Ip'nin bulunduğu koordinat bilgisini verir.
 - Reverse IP Lookup 
 
 İp adresine karşılık gelen websiteleri gösteriyor.
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
