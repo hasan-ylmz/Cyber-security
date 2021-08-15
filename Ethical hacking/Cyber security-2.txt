@@ -1,16 +1,17 @@
 
  Şu anda Ahmet Birkan 'ın etik hacker eğitimindeki bilgi toplama eğitimi kısmını görmektesiniz . Notlar bu bölümdeki izlediğim videolar, 
- internette yaptığım araştırmalar ve okuduğum yazıların belli bir kısmını içermektedir . Notların içinde kayda değer bilgiler ve araçlar bulunmaktadır , iyi okumalar.
+ internette yaptığım araştırmalar ve okuduğum yazıların belli bir kısmını içermektedir . Notların içinde kayda değerli bilgiler ve araçlar bulunmaktadır , iyi okumalar.
 
-  						##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
-
-
- >> Website - Whois, Cloudflare, Lokasyon,Http , Honeypot vb bilgi toplama - RECONDOG- <<
+  									##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
 
 
- > Program indirme komutu : git clone https://github.com/s0md3v/ReconDog.git <
+>> Website - Whois, Cloudflare, Lokasyon,Http , Honeypot vb bilgi toplama - RECONDOG- <<
 
-  - Bu araç 10 farklı alandan bilgi topluyor .  Alanlar sırasıyla :
+> Program indirme komutu : git clone https://github.com/s0md3v/ReconDog.git <
+
+
+
+- Bu araç 10 farklı alandan bilgi topluyor .  Alanlar sırasıyla :
 
 1. Whois looking 
 2. Dns lookup+ cloudflare detecting
@@ -27,11 +28,11 @@
 
  >> Cloudflare Bypass -Hatcloud güncellendi <<
  
-
-
  > Program indirme komutu : git clone https://github.com/HatBashBR/HatCloud.git <
-	
-   - Ruby diliyle yazılan Hatcloud  cloudflare'i bypass ediyor bu sayede gerçek ip adresi(sunucu ip'si) öğreniliyor. 
+
+
+
+ - Ruby diliyle yazılan Hatcloud  cloudflare'i bypass ediyor bu sayede gerçek ip adresi(sunucu ip'si) öğreniliyor. 
 
  Cloudflare nedir ?
 
@@ -51,29 +52,29 @@
 
  >> Ağdaki cihaz, port ,işletim sistemi tespiti  -Netzapper- <<
 
-
  > Program indirme komutu : git clone https://github.com/NetZapper/NetZapper.git <
+
+
 
  Aracın 4 tane özelliği var :
 
-1. Hosts discovery (Ağdaki cihazları taramak )
-2. Ports scanning (Port tarama )
-3. Os detection (İşletim sistemi tespiti)
-4. Brute force ssh (SSH servislerine kabakuvvet saldırısı )
+ 1. Hosts discovery (Ağdaki cihazları taramak )
+ 2. Ports scanning (Port tarama )
+ 3. Os detection (İşletim sistemi tespiti)
+ 4. Brute force ssh (SSH servislerine kabakuvvet saldırısı )
 
  
  
  >> Sunucudaki siteleri tespit etmek <<
 
- ! Bu konu önemli ! Hedef olarak belirlenmiş websitesinde herhangi br zafiyet bulunmadığı zaman o sitenin bulunduğu  sunucudaki başka websitlerine saldırı gerçekleştirilir. Diğer sitelerde zafiyet bulunduğunda oradan hedef siteye geçiş yapılabilir .
- Bu konu hakkında internette bulduğum başka bir yazı link(https://www.cozumpark.com/community/security-4/388635/): 
+  !  Bu konu önemli ! Hedef olarak belirlenmiş websitesinde herhangi br zafiyet bulunmadığı zaman o sitenin bulunduğu  sunucudaki başka websitlerine saldırı gerçekleştirilir.     Diğer sitelerde zafiyet bulunduğunda oradan hedef siteye geçiş yapılabilir .
+  Bu konu hakkında internette bulduğum başka bir yazı link(https://www.cozumpark.com/community/security-4/388635/): 
  
  x.com sitesine ait public ip adresini tespit etmek oldukça basit (ping x.com)
 
- Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet sizin x.com sitesinin datalarına ulaşmanızı saglayabiliyor.
- Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
- Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? Cevap basit, arama motorlarını kullanarak
- bing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
+ Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
+Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde        aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
+ 
  NOT : SSL kullanan siteler genellikle shared ip adresi üzerinden değil, dedicated ip adresi üzerinden yayın yaptıkları için arama sonucunda farklı bir site çıkmayabilir ancak o sunucu da farklı siteler host ediliyor olabilir.
  
 
@@ -86,10 +87,11 @@
 
  >> Webiste bilgi toplama ve zafyet tarama  - Red_hawk - <<
 
- Program amacı bilgi toplama ve zafiyet taramsı yapmaktır .Yapılamsı gereken tek şey site adersini yazmak yapılacak işlemi seçmek ve beklemektir.
-
-
  >  Program  indirme komutu :git clone https://github.com/Tuhinshubhra/RED_HAWK.git <
+
+
+
+ Program amacı bilgi toplama ve zafiyet taramsı yapmaktır .Yapılamsı gereken tek şey site adersini yazmak yapılacak işlemi seçmek ve beklemektir.
 
  Programın özelikleri aşağıdaki gibidir .
 
@@ -178,37 +180,41 @@
 
 
  >> İp adresleri hakkında bilgi toplama , analiz yapma <<
-
-
+ 
  > Program indirme komutu : git clone https://github.com/Manisso/Crips.git
 
  Herhangi bir ip adresi  üzerinde analiz yapıp , bilgi toplayabiliriz.
  
- TOOLS :
+ ------- TOOLS -------
 
-	- Whois lookup 
+- Whois lookup 
  
 İp adresi'nin kime ait olduğu ve kişi hakkında bilgiler elde ediliyor .Hatta konum bilgisi dahi elde edilebiliyor .
 
-	- Traceroute
+
+- Traceroute
 
 İp'nin hangi serverlardan geçtiğini gösteriyor .  Bu araç penetrasyon testlerinde de kullanılabiliyor. 
 
-	- DNS Lookup
 
-	- Reverse DNS Lookup
+- DNS Lookup
+
+- Reverse DNS Lookup
 
 İp ' nin karşılık geldiği dns serverı gösterir.
 
-	- GeoIP Lookup
+
+- GeoIP Lookup
 
 Ip'nin bulunduğu koordinat bilgisini verir.
 
-	- Port Scan
+
+- Port Scan
 
 İp üzerinde port taraması yapılıyor.
 
-	- Reverse IP Lookup 
+
+- Reverse IP Lookup 
 
 İp adresine karşılık gelen websiteleri gösteriyor.
 
