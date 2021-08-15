@@ -1,8 +1,13 @@
 
  Şu anda Ahmet Birkan 'ın etik hacker eğitimindeki bilgi toplama eğitimi kısmını görmektesiniz . Notlar bu bölümdeki izlediğim videolar, 
- internette yaptığım araştırmalar ve okuduğum yazıların belli bir kısmını içermektedir . Notların içinde kayda değerli bilgiler ve araçlar bulunmaktadır , iyi okumalar.
+ internette yaptığım araştırmalar ve okuduğum yazıların belli bir kısmını içermektedir . Notların içinde kayda değer bilgiler ve araçlar bulunmaktadır , iyi okumalar.
 
-  									##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
+
+
+
+  							                                                             		##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
+
+
 
 
 >> Website - Whois, Cloudflare, Lokasyon,Http , Honeypot vb bilgi toplama - RECONDOG- <<
