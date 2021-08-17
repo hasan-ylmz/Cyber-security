@@ -1,37 +1,50 @@
-  -  Shellshock güvenlik açığı 
+   >>  Shellshock güvenlik açığı << 
 Linux komut satırındaki bir güvenlik açığıdır .Web uygulamsında linux komut satırına kodlar gönderilebilir. Ve bunun karşılığı web uygulamsı üzerinden 
 görüntülenebiliyor . Sadece linuxla alakalı bir güvenlik açığı .
 
 ---> Burpsuite bakılacak. 
 
-  -  Kişiye özel wordlist oluşturmak
+
+
+   >>  Kişiye özel wordlist oluşturmak  <<
+
 Özel bir uygulama (cupp.py) aracılığıyla kişi hakkında belli biligiler girilerek o kişi hakkıdnda özel bilgilerin olduğu bir txt dosyası oluşturuluyor .
 Kısaca kelime listesi . Ne kadar ayrıntı verirseniz o kadar çok veri üretilir . Kişiye özel parola saldırılarında kullanılıyor .
 
 
-  -  DDOS saldrı geçmişi 
+
+
+   >> DDOS saldrı geçmişi <<
+
 En basit yöntemle ddosmon adlı bir websitesinden url'yi yazarak websitelerin saldırı altında alıp olmadığını , hangi tarihte saldırı olduğunuu gösteren 
 bir uygulamadır . Daha farklı yöntemler olsa da en basit yöntemlerden bir tanesi de budur .
 
 
-  - Ortam dinlemesine karşı alınabilecek önlemler 
+
+  >>  Ortam dinlemesine karşı alınabilecek önlemler  << 
+
 Cep telefonunuzda ortam dinlemesi yapmak için ihtiyacınız olan tek şey 3.5mm kulaklık jackı . Jackı telefona taktığınız zaman kulaklık ve mikrofon takılı olacak. 
 Fakat takılan aygıt bozuk olduğu için herhangi bir şekilde kayıt yapamayacak . Bu sayede ortam dinlemesinden bir nebze de osla kurtulmuş olacağız .
-
  
 
-  - Resmin veya fotoğrafın çekildiği konumu bulmak 
+
+
+  >> Resmin veya fotoğrafın çekildiği konumu bulmak <<
+  
   Bu yöntem her resimde işe yaramayabilir .Resim kullanılan cihazın gps destekli olması ve gps'in aktif olması gerekiyor .Bu şartları sağlayan resimlerin 
   çekildiği konumları bulmak mümkün .  
     Uygulama indirme linki 
-    >> www.geosetter.de/en/download/
+    > www.geosetter.de/en/download/
  
  Prpgramın asıl amacı resim bilgilerini değiştirmektir :) .  
  
  
-  - Website açıklarını bulmak (WAScan)
-  - Bu araç ile birçok alanda tarama ve zafiyet bulma işlemi gerçekleştiriliyor .Taranan kısımlar ve bulunabilen 
-    zafiyet türleri aşağıda mevcut .
+ 
+ 
+  >> Website açıklarını bulmak (WAScan) <<
+ 
+  
+  - Bu araç ile birçok alanda tarama ve zafiyet bulma işlemi gerçekleştiriliyor .Taranan kısımlar ve bulunabilen zafiyet türleri aşağıda mevcut .
 
 	WAScan (W)eb (A)pplication (S)cannier is a open source application secırity scanner . It is designed to find various vulnerabilities using "black-box" method ,
   that  means it wont study  the source code  of web applications but will work like a fuzzer,scannig  the web pages of the deployed web application ,
@@ -98,7 +111,9 @@ fingerprint
 - SSN
 
 
-  - 	BİTCOİN CÜZDAN HACKLEME MANTIĞI      
+
+
+   >> 	BİTCOİN CÜZDAN HACKLEME MANTIĞI   <<   
 
 İki tane anahatar var .Açık anahtar ve kapalı anahtar var .Açık anahatarın bilinmesi sıkıntı yaratmıyor .
 Normal banka cüzdanı kodu gibi düşünebilirsiniz. Fakat kapalı anahtarın bilinmesi sıkıtnı yaratabilir .Bir banka hesabın şifresi gibi , hesabın para 
@@ -110,7 +125,9 @@ Saldırı çok uzun sürebilir ,belki haftalar belki aylar .
 Coinlerin yanında herhangi bir coin olup olmadığına bakılır .
   
 
--    Hackerların kullandığı arama motorları 
+
+
+  >>   Hackerların kullandığı arama motorları  <<
 
    Aşağıda hackerların kullanıdğı arama motorlarının linki var. Bu arama motorlarının ortak özelliği google gibi yaptığınız her şeyi kaydetmiyor .
 Bu sebepten dolayı tercih edilmiyor .
@@ -126,4 +143,10 @@ Bu sebepten dolayı tercih edilmiyor .
 - https://www.gibiru.com/
 
 
-  
+
+
+
+
+
+ 				>>>  !! Burada bulunan bilgileri  sadece eğitim ve kaynak amaçlı kullanınız . 
+				Yasal olmayan durumlar  için kullanılması halinde  siber  suç işleyebileceğinizi unutmayınız.  !! <<< 
