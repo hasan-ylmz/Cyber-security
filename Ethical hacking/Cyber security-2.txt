@@ -1,11 +1,11 @@
 
  Şu anda Ahmet Birkan 'ın etik hacker eğitimindeki bilgi toplama eğitimi kısmını görmektesiniz . Notlar bu bölümdeki izlediğim videolar, 
- internette yaptığım araştırmalar ve okuduğum yazıların belli bir kısmını içermektedir . Notların içinde kayda değer bilgiler ve araçlar bulunmaktadır , iyi okumalar.
+ internette yaptığım araştırmalar ve okuduğum yazıların belli bir kısmını içermektedir . Notların içinde kayda değer bilgiler ve araçlar bulunmaktadır .
 
 
 
 
-  							                                                             		##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
+  							                                        		##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
 
 
 
@@ -41,8 +41,11 @@
 
  Cloudflare nedir ?
 
- CloudFlare; internet güvenliği, DDoS, içerik dağıtımı, alan adı ve sunucu konularında hizmet veriyor. Sitenizi güvenli ve hızlı bir şekilde yayınlayabilmenize imkân tanıyan sistem, cache özelliği ile de sitenizi %30 oranında hızlandırabiliyor.
+ CloudFlare; internet güvenliği, DDoS, içerik dağıtımı, alan adı ve sunucu konularında hizmet veriyor. 
+ Sitenizi güvenli ve hızlı bir şekilde yayınlayabilmenize imkân tanıyan  sistem, cache özelliği ile de sitenizi %30 oranında hızlandırabiliyor.
  Siber saldırılara karşı da etkili olan servis, bu sayede ticari sitelerde de rahatlıkla kullanılabiliyor.
+
+
 
  Cloudflare nasıl kullanılır ?
   
@@ -72,15 +75,17 @@
  
  >> Sunucudaki siteleri tespit etmek <<
 
-  !  Bu konu önemli ! Hedef olarak belirlenmiş websitesinde herhangi br zafiyet bulunmadığı zaman o sitenin bulunduğu  sunucudaki başka websitlerine saldırı gerçekleştirilir.     Diğer sitelerde zafiyet bulunduğunda oradan hedef siteye geçiş yapılabilir .
+  !  Bu konu önemli ! Hedef olarak belirlenmiş websitesinde herhangi br zafiyet bulunmadığı zaman o sitenin bulunduğu  sunucudaki 
+  başka websitlerine saldırı gerçekleştirilir.  Diğer sitelerde zafiyet bulunduğunda oradan hedef siteye geçiş yapılabilir .
   Bu konu hakkında internette bulduğum başka bir yazı link(https://www.cozumpark.com/community/security-4/388635/): 
  
  x.com sitesine ait public ip adresini tespit etmek oldukça basit (ping x.com)
 
- Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.
+ Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet 
+ sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.
  Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
-Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? 
-Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
+ Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? 
+ Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
  
  NOT : SSL kullanan siteler genellikle shared ip adresi üzerinden değil, dedicated ip adresi üzerinden yayın yaptıkları için arama sonucunda 
  farklı bir site çıkmayabilir   ancak o sunucu da farklı siteler host ediliyor olabilir.
@@ -89,7 +94,8 @@ Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde ara
  Bu taramaları yapabilmek için 
  link : https://wmaraci.com/sunucu-tarama   adlı siteden tarama gerçekleştirebilirsiniz.
 
- !  Eğer cloudflare varsa burada pek bir şey yapamayız.  Asıl sunucu ip'si olmadığı için gösterilebilecek siteler snucudaki websiteler değil ,koruma altındaki websitelerdir. Oradaki  websiteler cloudflare güvenlik duvarını kullanan sitelerdir . 
+ !  Eğer cloudflare varsa burada pek bir şey yapamayız.  Asıl sunucu ip'si olmadığı için gösterilebilecek siteler snucudaki websiteler değil ,
+    koruma altındaki websitelerdir. Oradaki  websiteler cloudflare güvenlik duvarını kullanan sitelerdir . 
 
 
 
@@ -101,7 +107,7 @@ Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde ara
 
  Program amacı bilgi toplama ve zafiyet taramsı yapmaktır .Yapılamsı gereken tek şey site adersini yazmak yapılacak işlemi seçmek ve beklemektir.
 
- Programın özelikleri aşağıdaki gibidir .
+ Programın özelikleri aşağıda belirtilrmiştrir .
 
 - Basic Scan
 - Site Title NEW
@@ -181,13 +187,15 @@ Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde ara
 - port_scanner (port tespiti)
 - anon_email (anonim email göndermek) 
 
- ! Server üzerinden hizmet verildiği için mail her zaman gitmeyebilir . Daha doğrusu yoğun olursa 
+ ! Server üzerinden hizmet verildiği için mail her zaman gitmeyebilir .Server yoğunluğuna bağlı olarak mail gidiş süresi değişebilir.
 
 
 
 
 
  >> İp adresleri hakkında bilgi toplama , analiz yapma <<
+ 
+ 
  
  > Program indirme komutu : git clone https://github.com/Manisso/Crips.git
 
@@ -225,5 +233,13 @@ Ip'nin bulunduğu koordinat bilgisini verir.
 - Reverse IP Lookup 
 
 İp adresine karşılık gelen websiteleri gösteriyor.
+
+
+
+
+
+
+                           >>>  !! Burada bulunan bilgileri  sadece eğitim ve kaynak amaçlı kullanınız . 
+			                        Yasal olmayan durumlar  için kullanılması halinde  siber  suç işleyebileceğinizi unutmayınız.  !! <<< 
 
 
