@@ -5,7 +5,7 @@
 
 
 
-  							                                        		##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
+ ##  BİLGİ TOPLAMA EĞİTİMLERİ  ##
 
 
 
@@ -239,7 +239,6 @@ Ip'nin bulunduğu koordinat bilgisini verir.
 
 
 
-                           >>>  !! Burada bulunan bilgileri  sadece eğitim ve kaynak amaçlı kullanınız . 
-			                        Yasal olmayan durumlar  için kullanılması halinde  siber  suç işleyebileceğinizi unutmayınız.  !! <<< 
+>> !! Burada bulunan bilgileri  sadece eğitim ve kaynak amaçlı kullanınız . Yasal olmayan durumlar için kullanılması halinde siber suç işleyebileceğinizi unutmayınız. !! << 
 
 
