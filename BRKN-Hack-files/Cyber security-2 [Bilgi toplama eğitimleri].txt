@@ -231,10 +231,3 @@ Ip'nin bulunduğu koordinat bilgisini verir.
 İp adresine karşılık gelen websiteleri gösteriyor.
 
 
-
-
-
-
->> !! Burada bulunan bilgileri  sadece eğitim ve kaynak amaçlı kullanınız . Yasal olmayan durumlar için kullanılması halinde siber suç işleyebileceğinizi unutmayınız. !! << 
-
-
