@@ -82,7 +82,9 @@
  
  > git clone https://github.com/Yukinoshita47/Yuki-Chan-The-Auto-Pentest.git
 
- Bu program 20 farklı aracı barındırıyor .Sadece tek bir komutla  20 tane araç üzerinden tarama yapıyor ve tek tek analiz yapabilme yeteneği
+ Yuki Chan, Otomatik Penetrasyon Testi aracıdır, bu araç sizin için tüm standart güvenlik testi yöntemlerini denetleyecektir.
+
+ Bu program 20 farklı aracı barındırıyor .Sadece tek bir komut hepsini çalıştırmka yeterlidir.
 
  
   - Feature - 
