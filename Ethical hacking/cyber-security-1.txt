@@ -21,24 +21,6 @@ bir uygulamadır . Daha farklı yöntemler olsa da en basit yöntemlerden bir ta
 
 
 
-  >>  Ortam dinlemesine karşı alınabilecek önlemler  << 
-
-Cep telefonunuzda ortam dinlemesi yapmak için ihtiyacınız olan tek şey 3.5mm kulaklık jackı . Jackı telefona taktığınız zaman kulaklık ve mikrofon takılı olacak. 
-Fakat takılan aygıt bozuk olduğu için herhangi bir şekilde kayıt yapamayacak . Bu sayede ortam dinlemesinden bir nebze de osla kurtulmuş olacağız .
- 
-
-
-
-  >> Resmin veya fotoğrafın çekildiği konumu bulmak <<
-  
-  Bu yöntem her resimde işe yaramayabilir .Resim kullanılan cihazın gps destekli olması ve gps'in aktif olması gerekiyor .Bu şartları sağlayan resimlerin 
-  çekildiği konumları bulmak mümkün .  
-    Uygulama indirme linki 
-    > www.geosetter.de/en/download/
- 
- Prpgramın asıl amacı resim bilgilerini değiştirmektir :) .  
- 
- 
  
  
   >> Website açıklarını bulmak (WAScan) <<
