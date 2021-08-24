@@ -1,0 +1,150 @@
+				
+
+					##  ANONİM -GİZLİLİK  ## 
+
+ >>  Anonim olarak e-mail göndermek <<
+
+ Anonim olarak mesaj göndermek için birçok tool olsa da bu yazımızda gloom-framework'daki anon_email
+ aracını kullanacağız.
+
+ Önceki yazımızda gloom-framework linkini bırakmıştım .İsterseniz oradan indirip deneyebilirsiniz.
+ Uygulamayı çalıştırdıktan sonra tools kısmında anon_email toolunu seçip hedef mail adresini yazıyoruz.
+ Daha sonra konu hakkında bilgi veriyorsuuz .En son kısımda ise gönderilmek istenen mesaj yazılıyor.
+ 
+ ! Bu araç kullanılırken dikkat edilmesi gereken bir nokta var. Email program değil server üzerinden gittiği 
+ için gönderiminde sıkıntılar yaşanabiliyor .Mesaj  belki 2 dk belki 10dk belki de saatler sonra gidecektir.
+ Bu durum server yoğunluğuna göre değişkenlik göstermektedir.
+
+
+
+
+ >> Dosya ve klasör gizleme silinmesini engelleme <<
+
+
+ Önemli bir klasöre sahipsiniz ve bu klasörün hiçbir şekilde okunmasını veya silinmesini istemiyoruz.Bunun için 
+ aşağıdaki adımları izlemeniz yeterli olacaktır.
+
+ dosya> özellikler > güvenlik > düzenle > ekle > Boşluk olan kısıma "Everyone" yazıyoruz . > adları denetle > tamam > 
+ Eveyone kişisine tıkladıktan sonra izinler izin verme kısmına tıklayarak herkes için izinleri kaldırıyoruz. 
+
+ Bu yolları izlediğinizde dosya silinemez ve görüntülenemez.
+
+ !! Eğer dosyaları görüntülemk isterseniz aynı adımları izleyip izin verme kısmına everyone için yetki veriyoruz. 
+   Kısaca izin verme kısmını seçmeyip izin ver kısmını seçiyoruz.Bu sayede dosyalar okunabilir ve silinebilir hale gelecektir.
+
+
+
+ >> Sahte email gönderme ve sahte mail adresi alma <<
+
+
+   Site : Sahte mail oluşturmanı ve kısa süreli  kullanımını sağlayan bir sitedir.
+
+   http://fakemailgenerator.com
+   
+   Random bir mail adresi verilir ve belli bir süre bu adres kullanıma açıktır. Kısa süreli işlemlerde çok işinize yarayabilir .
+
+
+
+
+ >> İnternette gizli sörf -ip gizleme <<
+
+  - Proxy switcher - (TEKRAR YAZILACAK)
+ 
+
+
+
+ >> İp adrsi gizleme -değiştirme <<
+
+ > git clone https://github.com/Hackplayers/4nonimizer.git 
+
+ Kullanılan program 16 tane vpn servisini destkelemektedir . Varasayılan default olarak VPNBook servisini kullanmaktadır .
+ 
+ DESTEKLEDİĞİ VPN SERVİSLERİ 
+
+ - HideMyAss https://www.hidemyass.com/
+
+ - TorGuard https://torguard.net/
+
+ - VPNBook(varsayılan olarak ) https://www.vpnbook.com
+
+ - VPNGate https://vpngate.net/en/
+
+ - VPNMe  https://www.vpnme.me/
+
+ - VPNKeys https://vpnkeys.com/
+
+ - FreeVpn https://freevpn.me/
+
+ - TunnelBear https://tunnelbear.com/
+
+ - Cryptostrom https://cryptostrom.is/
+
+ - PIA https://privateinternetaccess.com/
+
+ - SlickVPN https://www.slickvpn.com
+
+ - 7Proxies https://www.7proxies.com/
+
+ - StrongVPN https://strongvpn.com/
+
+ - NordVPN  https://nordvpn.com
+
+ - ExpressVPN https://expressvpn.com
+
+ - Vyprvpn https://goldenfrog.com/es/vyprvpn
+
+
+ 4nonimizer install yazıyoruz . Daha sonra ise 4nonimizer start diyerek aracı çalıştıryoruz .
+ Ücretszi bir vpn servisi olduğu için biraz yavaş olabilir . Daha farklı vpn servislerini de tercih edebilirsiniz. 
+
+
+
+ 
+ >> İp adresi gizleme <<
+ 
+ İp gizleme sebebi dos atakları veya ufak çaplı saldırılardan korunmak içinse :
+ zenmate adlı vpn servsini kullanabilirsiniz . Gerçek ip gizlenip  farklı bir ğlkeden bbğalanıyor gibi gözüküp 
+ saldırılardan koruyabilir . 
+
+
+ Eğer amacınız saldırı veya büyük sitelere veya sistemlere sızmaksa daha farklı yollar izlenmesi gerekiyor . İnternette 
+ paralı vpnler ile belli oranda bu iş için güvenlik sağlanıyor . Bir süreliğine ip adresleri kiralanıyor . Fakat vpn servislerinin 
+ şirket politikalarını bilerek hareket etmek çok daha sağlıklı olacakatır .  Bazı saldırılara göz yumsalar da  büyük çaplı saldırılarda başınız derde girebilir .
+ Yapılan kanunsuz herhangi bir davranışta bu servis sağlayıcıların sizi ifşa edebileceği  ihtimalini  de unutmayın . 
+ Bu ise tam güvenlik sağlamamaktadır. Sadece ufak çaplı durumlar için kullanılabilir . 
+
+ !! Ayrıca ne yaparsanız yapın her zaman arkanızda bir iz bırakırsınız . Bu yüzden kanunsuz işler yapmamaya özen gösteriniz .
+
+
+
+
+  >> Antivirüsler BYPass ediliyor . Virüsler gizleniyor. <<
+
+ (yazılacak.)
+
+
+ 
+   >>  Ortam dinlemesine karşı alınabilecek önlemler  << 
+
+Cep telefonunuzda ortam dinlemesi yapmak için ihtiyacınız olan tek şey 3.5mm kulaklık jackı . Jackı telefona taktığınız zaman kulaklık ve mikrofon takılı olacak. 
+Fakat takılan aygıt bozuk olduğu için herhangi bir şekilde kayıt yapamayacak . Bu sayede ortam dinlemesinden bir nebze de osla kurtulmuş olacağız .
+ 
+
+
+
+  >> Resmin veya fotoğrafın çekildiği konumu bulmak <<
+  
+  Bu yöntem her resimde işe yaramayabilir .Resim kullanılan cihazın gps destekli olması ve gps'in aktif olması gerekiyor .Bu şartları sağlayan resimlerin 
+  çekildiği konumları bulmak mümkün .  
+    Uygulama indirme linki 
+    > www.geosetter.de/en/download/
+ 
+ Prpgramın asıl amacı resim bilgilerini değiştirmektir :) .  
+
+
+
+
+
+
+
+ 
