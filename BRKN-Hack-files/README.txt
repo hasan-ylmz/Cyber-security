@@ -1,0 +1,18 @@
+        ## ETHİCAL HACKİNG -BRKN ## 
+        
+       
+        >> 
+ 
+       Bu klasörde Ahmet Birkan 'ın  video eğitimlerindeki farklı toollar ,yazılar  bulunmaktadır .  Notlar bu bölümdeki izlediğim videolar, 
+       internette yaptığım araştırmalar ve okuduğum makalelerin  belli bir kısmını içermektedir . Notların içinde kayda değer bilgiler ve araçlar bulunmaktadır.
+       Dosyalar zamanla yüklenecektir . İyi araştırmalar  :) 
+       
+       !! Burada bulunan bilgileri sadece eğitim ve kaynak amaçlı kullanınız .Yasal olmayan durumlar için kullanılması halinde siber suç işleyebileceğinizi unutmayınız. !! 
+       Araçları kullanırken sorumluluk tamamiyle size aittir . Araçları kullandığınızda şunları kabul etmiş olursunuz : 
+       1. eğitim amaçlı olduğunu 
+       2. meşru güvenlik testlerinde kullanacağınızı 
+       
+       Suistimal edildiğinde kolluk kuvvetleri ve hükümet tarafından uygulanan ceza hukuku  ile suçlanmaya hazırsınız
+
+      
+        <<
