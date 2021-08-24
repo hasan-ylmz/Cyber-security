@@ -1,0 +1,149 @@
+			## GÜVENLİK AÇIĞI EĞİTİMLERİ ##
+
+
+
+
+ >> Websitelerde SQL injection  zafiyet taraması << 
+ 
+ > git clone https://github.com/the-robot/sqliv.git
+
+ Hedef linkler üzerinden sql zafiyet taramsı yapıyor .
+
+ Features 
+ 1. Multiple domain scanning with sql injection dork by Bing , Google or Yahoo
+ 2. Targetted scanning by providing specific domain (with crawling)
+ 3. Reverse domain sanning
+
+
+  
+ 
+ >> Hedef sitelere yapılan ilk taramalar D-TECT << 
+
+ > git clone https://github.com/bibortone/D-Tech.git 
+ 
+  D-TECT Penetrasyon araçlarının  toplandığı bir uygulama . Penetrasyon testi yapanlar ve güvenlik araştırmacıları 
+   bu araçaları kullanabilir .  
+ 
+  - Özellikler - 
+  
+ 1. Sub-domain Scanning
+ 2.  Port Scanning
+ 3. Wordpress Scanning
+ 4. Wordpress Username Enumeration ()
+ 5. Wordpress Backup Grabbing
+ 6. Sensitive File Detection
+ 7. Same-Site Scripting Scanning
+ 8. Click Jacking Detection
+ 9. Powerful XSS vulnerability scanning
+ 10. SQL Injection vulnerability scanning
+ 11. User-Friendly UI
+
+
+
+
+
+ >> WORDPRESS siterlerde güvenlik taraması <<
+
+ > git clone https://github.com/5up3rc/WPSeku-1.git
+
+ Aşağıdakiler uygulamada yapılabilecek tarama yolları 
+
+ -t  --target     Target url (eg:http://target.com)
+ -x  --xss        Testing Cross Site Scripting(xss) vulns
+ -s  --sql        Testing SQL injection (sql) vulns
+ -l  --lfi        Testing local file inclusio (lfi) vulns
+ -b  -- brute     Bruteforcing login ,wp-login [l] or xmlrpc [x]
+ -q  --query      Testable parameters (eg:"id=1&file=2")
+ -u  --user       Set username for bruteforce ,default = admin
+ -w  --wordlist   Set wordlist (user:pass)
+ -m  --method     Set method (GET or POST)
+ -p  --proxy      Set proxy (host:port)
+ -a  --agent      Set user-agent 
+ -c  --cookie     Set cookie 
+ -r  --redirecet  Redirection target url ,default =true 
+  
+
+  
+ >> Url adres , Hash değeri , ip adersi analizi <<
+
+ > git clone  https://github.com/1aN0rmus/TekDefense-Automater.git 
+
+ İp adresinin kara listede olup olmadığını kontrol ediyor . İnternet sağlayıcı ,
+ lokasyon bilgisi ve farklı konularda sorgulama yapıyor .
+
+ - Hash değeri -
+
+ Dosyaların kendilerine özel parmak izleridir . Programın hash değerini  hangi adla kayıt edildiğini gösteriyor .
+ 
+
+
+ 
+ >> Otoamtik pentest aracı YUKİ-CHAN ,Tek komutla 20 araç << 
+ 
+ > git clone https://github.com/Yukinoshita47/Yuki-Chan-The-Auto-Pentest.git
+
+ Bu program 20 farklı aracı barındırıyor .Sadece tek bir komutla  20 tane araç üzerinden tarama yapıyor ve tek tek analiz yapabilme yeteneği
+
+ 
+  - Feature - 
+ 
+  Automated
+  Intel-Gathering
+  Vulnerability Analysis
+  Security Auditing
+  OSINT
+  Tracking
+  System Enumeration
+  Fuzzing
+  CMS Auditing
+  SSL Security Auditing
+  And Off Course This Tool Designed For Targetted Pentesting Too
+  Modules In Yuki Chan
+  Whois domain analyzer
+  Nslookup
+  Nmap
+  TheHarvester
+  Metagoofil
+  DNSRecon
+  Sublist3r
+  Wafw00f
+  WAFNinja
+  XSS Scanner
+  WhatWeb
+  Spaghetti
+  WPscan
+  WPscanner
+  WPSeku
+  Droopescan ( CMS Vulnerability Scanner Wordpress, Joomla, Silverstripe, Drupal, And Moodle)
+  SSLScan
+  SSLyze
+  A2SV
+  Dirsearch		  
+ 
+
+
+  >> Webiste hack yolunda zafiyet taraması <<
+   
+ > git clone https://github.com/golismero/golismero.git 
+
+ Golismero website zaafiyet taraması yapıyor . Tarama birçok araçla yapılıyor . Bulduğu açıkları en son kısımda raporluyor .
+ Bulunan açıkların belirli seviyeleri var . Bazaıları düşük oranda bazıalrı yüksek oranda bazısı ise sadece bilgi amaçlı uyarıcılar gösteriyor .
+  
+ Zaafiyetlerin açıklamaları ve  çözümleri  araç sonunda belirtiliyor .Daha fazla bilgi sahibi olmak için  REFERENCES adlı kısımda açıkların hakkında daha fazla bilgi sahibi olabileceksiniz.
+
+
+
+
+ >>  Website zaafiyetleri ve bilgileri -WIG << 
+
+
+
+ >> Websiteler için bilgi toplama ve zaafiyet tespiti <<
+
+
+  
+ >> Web güvenlik açıkları ve bilgi toplama  -Striker- << 
+
+
+
+ 
