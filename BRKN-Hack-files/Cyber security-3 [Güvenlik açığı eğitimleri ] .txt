@@ -139,16 +139,94 @@
 
 
 
- >>  Website zaafiyetleri ve bilgileri -WIG << 
- (YAZILACAK)
+
+>>  website zaafiyetleri ve bilgileri - WIG <<
+
+>  git clone https://github.com/jekyc/wig.git 
 
 
- >> Websiteler için bilgi toplama ve zaafiyet tespiti <<
- (YAZILACAK)
+ Bilgi toplama ve website zaafiyet tespiti yapan bir araç . 
 
-  
- >> Web güvenlik açıkları ve bilgi toplama  -Striker- << 
- (YAZILACAK)
+- Site info 
+websites ile alakalı bilgileri gösteriyor .Site ip adresi ve site başlığını tespit ediyor. 
+
+- Version 
+İp ile alakalı sunucu bilgisi olabilir . Script bilgisi olabilir.
+
+- Subdomains 
+Alt alan adlarını listeler .
+
+-Interesting 
+Biraz daha gizemli kısımları tespit etmeye çalışıyor .Bilgi içeren kısımları tespit etmeye çalışıyor . Robots.txt dosyası veya /login/ kısmı bunlara örnektir .
+
+- Tools 
+Websitesinde taramada kullanılabilecek direkt zaafiyet odaklı farklı araçların isim ve indirme  linkleri yer alıyor.
+
+- Vulnerabilities 
+Websitesindeki zaafiyetlerin açıklandığı bölüm . Zaafiyetlerin çözümlenmesi için  adresler belirtiliyor .
+
+
+ 
+ 
+
+>> Websiteler için bilgi toplama ve zaafiyet tespiti <<
+
+> git clone https://github.com/bahaabdelwahed/killshot.git
+
+Genel olarak kullanılan özellikler aşağıdadır .
+
+
+FEATURES  
+
+- Menu Site
+
+{0} Spider (Bilgi toplama)
+{1} Web technologie 
+{2} WebApp Vul Scanner (Zafiyet tespiti )
+{3} Port Scanner (Açık/kapalı port tespiti)
+{4} CMS Scanner 
+{5} Fuzzers 
+{6} Cms Exploit Scanner (Websiteye yönetim sistemlerinde exploit arama)
+{7} Backdoor Generation (Arka kapı oluşturma ve bağlantı kurma)
+{8} Linux Log Clear (Linux log silme )
+
+
+- WebApp Vul Scanner
+
+{1} Xss scanner
+{2} Sql Scanner
+{3} Tomcat RCE
+
+
+- Port Scanner
+
+ [0] Nmap Scan
+ [1] Unicorn Scan
+Nmap Scan 
+ [2] Nmap Os Scan 
+ [3] Nmap TCP Scan
+ [4] Nmap UDB Scan 
+ [5] Nmap All scan
+ [6] Nmap Http Option Scan 
+ [7] Nmap Live target In Network
+Unicorn Scan
+[8] Services OS 
+[9] TCP SYN Scan on a whole network 
+[01] UDP scan on the whole network
+
+
+
+>> web güvenlik açıkları ve bilgi toplama - striker <<
+
+> git clone https://github.com/s0md3v/Striker.git
+ 
+Tarama yapılacak siteyi seçtikten sonra ilk önce whois bilgisi kontrol ediliyor .
+Daha sonra Robots.txt dosyasına bakılıp içeriğiyle alakalı bilgiler gösteriliyor.
+Sİtemap tespit edilebilir. 
+Port taraması gerçekleştirilir .
+Hedef ip adresinin karşılık geldiği websitelerini gösteriyor .Kısaca o sunucudaki websitelerini gösteriyor .
+
+
 
 
  
