@@ -1,4 +1,7 @@
-			## GÜVENLİK AÇIĞI EĞİTİMLERİ ##
+
+
+
+							## GÜVENLİK AÇIĞI EĞİTİMLERİ ##
 
 
 
@@ -137,15 +140,15 @@
 
 
  >>  Website zaafiyetleri ve bilgileri -WIG << 
-
+ (YAZILACAK)
 
 
  >> Websiteler için bilgi toplama ve zaafiyet tespiti <<
-
+ (YAZILACAK)
 
   
  >> Web güvenlik açıkları ve bilgi toplama  -Striker- << 
-
+ (YAZILACAK)
 
 
  
