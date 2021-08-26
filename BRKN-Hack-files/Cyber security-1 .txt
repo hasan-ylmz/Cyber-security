@@ -112,7 +112,7 @@ Coinlerin yanında herhangi bir coin olup olmadığına bakılır .
   >>   Hackerların kullandığı arama motorları  <<
 
    Aşağıda hackerların kullanıdğı arama motorlarının linki var. Bu arama motorlarının ortak özelliği google gibi yaptığınız her şeyi kaydetmiyor .
-   Bu sebepten dolayı tercih edilmiyor .
+   Bu sebepten dolayı tercih ediliyor .
 
 - https://www.shodan.io/
 - https://censys.io/
