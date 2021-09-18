@@ -6,7 +6,7 @@
 
 
 
- >> Websitelerde SQL injection  zafiyet taraması << 
+ >> Websitelerde SQL injection  zafiyet taraması  -SQLiv-  << 
  
  > git clone https://github.com/the-robot/sqliv.git
 
@@ -67,7 +67,7 @@
   
 
   
- >> Url adres , Hash değeri , ip adersi analizi <<
+ >> Url adres , Hash değeri , ip adersi analizi  -Tekdefense Automater <<
 
  > git clone  https://github.com/1aN0rmus/TekDefense-Automater.git 
 
@@ -127,7 +127,7 @@
  
 
 
-  >> Webiste hack yolunda zafiyet taraması <<
+  >> Webiste hack yolunda zafiyet taraması  - Golismero - <<
    
  > git clone https://github.com/golismero/golismero.git 
 
@@ -216,7 +216,7 @@ Unicorn Scan
 
 
 
->> web güvenlik açıkları ve bilgi toplama - striker <<
+>> web güvenlik açıkları ve bilgi toplama - Striker - <<
 
 > git clone https://github.com/s0md3v/Striker.git
  
