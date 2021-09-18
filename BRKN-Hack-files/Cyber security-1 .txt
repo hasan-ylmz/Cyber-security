@@ -1,16 +1,7 @@
-   >>  Shellshock güvenlik açığı << 
-Linux komut satırındaki bir güvenlik açığıdır .Web uygulamsında linux komut satırına kodlar gönderilebilir. Ve bunun karşılığı web uygulamsı üzerinden 
-görüntülenebiliyor . Sadece linuxla alakalı bir güvenlik açığı .
-
----> Burpsuite bakılacak. 
-
-
-
    >>  Kişiye özel wordlist oluşturmak  <<
 
 Özel bir uygulama (cupp.py) aracılığıyla kişi hakkında belli biligiler girilerek o kişi hakkıdnda özel bilgilerin olduğu bir txt dosyası oluşturuluyor .
 Kısaca kelime listesi . Ne kadar ayrıntı verirseniz o kadar çok veri üretilir . Kişiye özel parola saldırılarında kullanılıyor .
-
 
 
 
@@ -21,8 +12,6 @@ bir uygulamadır . Daha farklı yöntemler olsa da en basit yöntemlerden bir ta
 
 
 
- 
- 
   >> Website açıklarını bulmak (WAScan) <<
  
   
@@ -92,21 +81,7 @@ fingerprint
 - Errors -> (fatal errors) 
 - SSN
 
-
-
-
-   >> 	BİTCOİN CÜZDAN HACKLEME MANTIĞI   <<   
-
-İki tane anahatar var .Açık anahtar ve kapalı anahtar var .Açık anahatarın bilinmesi sıkıntı yaratmıyor .
-Normal banka cüzdanı kodu gibi düşünebilirsiniz. Fakat kapalı anahtarın bilinmesi sıkıtnı yaratabilir .Bir banka hesabın şifresi gibi , hesabın para 
-aktarım ,işlemleri bu anahtarla gerçekleşiyor .Eğer herehnagi bir şekilde kapalı anahtar bulunursa bütün hesap boşaltılır .
-
-Bu işlem ise bruteforce saldırısıyla hallediliyor .Rastgele cüzdan kodları denenerek saldırı yapılıyor .
-Saldırı çok uzun sürebilir ,belki haftalar belki aylar .
-
-Coinlerin yanında herhangi bir coin olup olmadığına bakılır .
   
-
 
 
   >>   Hackerların kullandığı arama motorları  <<
