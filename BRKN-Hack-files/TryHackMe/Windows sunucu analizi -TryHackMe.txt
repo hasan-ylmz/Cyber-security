@@ -1,0 +1,24 @@
+		## WİNDOWS SUNUCU ANALİZİ ## 
+
+ - Hacklenmiş bir windows sunucusu analizi ,hackerın yapmış olduğu işlemler nasıl tespit edilir ? Notlar içinde bu sorulara cevap bulacaksınız .
+
+>> Sızılmış sunucu analizi <<
+
+
+>>  Temel sistem bilgisi ve kullanıcı temel bilgileri  <<  
+
+
+
+>> İlk bağlanılan İp adersi ve yöneticiler << 
+
+ 
+
+>> Görev zamanlayıcısı ile <<
+
+
+
+>> İlk sızılan tarih <<
+
+
+
+>> Saldırgan sunucu İp adresi << 
