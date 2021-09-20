@@ -1,0 +1,49 @@
+
+
+		## FOTOĞRAF ANALİZİ ##
+ 
+ >> Sosyal medya hesabı <<
+
+
+
+ >> Şehir ve konum <<
+
+
+
+ >> Wifi ,Ssid ,Bssid ,Konum <<
+
+
+
+ >> Mail ve blog << 
+
+
+
+
+ >> Konum ve parola <<
+
+
+
+		## STEGANOGRAFİ ##
+ 
+ >> Steganografi resme dosya gizleme sanatıdır. 
+
+
+ >> Steghide <<
+
+ >> Stegcracker <<
+
+ >> Zsteg <<
+
+ >>Exiftool <<
+
+ >> StegoVeritas <<
+  
+
+ >> Spectograms <<
+
+
+ >> Spectograms oluşturma << 
+
+
+
+
