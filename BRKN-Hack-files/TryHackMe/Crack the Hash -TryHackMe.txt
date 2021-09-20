@@ -1,5 +1,5 @@
+			-	TryHackMe	-
 
+			## 	Crack the Hash 	   ## 
 
-		## Crack the Hash ## 
-
-- Hash algoritmaları ve nasıl kırıldığını 
+- Hash algoritmaları ve nasıl kırıldığını yazıda bulabileceksiniz  .
