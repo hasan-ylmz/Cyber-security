@@ -3,3 +3,29 @@
 			## 	Crack the Hash 	   ## 
 
 - Hash algoritmaları ve nasıl kırıldığını yazıda bulabileceksiniz  .
+
+
+
+>> MD5 <<
+
+>> SHA1 <<
+
+>> SHA256 <<
+
+
+>> BCRYPT <<
+
+
+>> MD4 <<
+
+
+>> SHA256  v2 <<
+
+
+>> NTLM <<
+
+
+>> SHA512CRYPT <<
+
+
+>> HMAC-SHA1 <<
