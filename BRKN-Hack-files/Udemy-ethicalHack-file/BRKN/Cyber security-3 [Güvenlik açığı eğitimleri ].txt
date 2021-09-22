@@ -1,0 +1,224 @@
+## GÜVENLİK AÇIĞI EĞİTİMLERİ ##
+
+
+
+
+ >> Websitelerde SQL injection  zafiyet taraması  -SQLiv-  << 
+ 
+ > git clone https://github.com/the-robot/sqliv.git
+
+ Hedef linkler üzerinden sql zafiyet taramsı yapıyor .
+
+ Features 
+ 1. Multiple domain scanning with sql injection dork by Bing , Google or Yahoo
+ 2. Targetted scanning by providing specific domain (with crawling)
+ 3. Reverse domain sanning
+
+
+  
+ 
+ >> Hedef sitelere yapılan ilk taramalar D-TECT << 
+
+ > git clone https://github.com/bibortone/D-Tech.git 
+ 
+  D-TECT Penetrasyon araçlarının  toplandığı bir uygulama . Penetrasyon testi yapanlar ve güvenlik araştırmacıları 
+   bu araçaları kullanabilir .  
+ 
+  - Özellikler - 
+  
+ 1. Sub-domain Scanning
+ 2.  Port Scanning
+ 3. Wordpress Scanning
+ 4. Wordpress Username Enumeration ()
+ 5. Wordpress Backup Grabbing
+ 6. Sensitive File Detection
+ 7. Same-Site Scripting Scanning
+ 8. Click Jacking Detection
+ 9. Powerful XSS vulnerability scanning
+ 10. SQL Injection vulnerability scanning
+ 11. User-Friendly UI
+
+
+
+
+
+ >> WORDPRESS siterlerde güvenlik taraması <<
+
+ > git clone https://github.com/5up3rc/WPSeku-1.git
+
+ Aşağıdakiler uygulamada yapılabilecek tarama yolları 
+
+ -t  --target     Target url (eg:http://target.com)
+ -x  --xss        Testing Cross Site Scripting(xss) vulns
+ -s  --sql        Testing SQL injection (sql) vulns
+ -l  --lfi        Testing local file inclusio (lfi) vulns
+ -b  -- brute     Bruteforcing login ,wp-login [l] or xmlrpc [x]
+ -q  --query      Testable parameters (eg:"id=1&file=2")
+ -u  --user       Set username for bruteforce ,default = admin
+ -w  --wordlist   Set wordlist (user:pass)
+ -m  --method     Set method (GET or POST)
+ -p  --proxy      Set proxy (host:port)
+ -a  --agent      Set user-agent 
+ -c  --cookie     Set cookie 
+ -r  --redirecet  Redirection target url ,default =true 
+  
+
+  
+ >> Url adres , Hash değeri , ip adersi analizi  -Tekdefense Automater <<
+
+ > git clone  https://github.com/1aN0rmus/TekDefense-Automater.git 
+
+ İp adresinin kara listede olup olmadığını kontrol ediyor . İnternet sağlayıcı ,
+ lokasyon bilgisi ve farklı konularda sorgulama yapıyor .
+
+ - Hash değeri -
+
+ Dosyaların kendilerine özel parmak izleridir .  Antivirüslerde veya farklı programlarda  hash değerini  hangi adla kayıt edildiğini gösteriyor .
+ 
+
+
+ 
+ >> Otoamtik pentest aracı YUKİ-CHAN ,Tek komutla 20 araç << 
+ 
+ > git clone https://github.com/Yukinoshita47/Yuki-Chan-The-Auto-Pentest.git
+
+ Yuki Chan, Otomatik Penetrasyon Testi aracıdır, bu araç sizin için tüm standart güvenlik testi yöntemlerini denetleyecektir.
+
+ Bu program 20 farklı aracı barındırıyor .Sadece tek bir komut hepsini çalıştırmka yeterlidir.
+
+ 
+  - Feature - 
+ 
+  Automated
+  Intel-Gathering
+  Vulnerability Analysis
+  Security Auditing
+  OSINT
+  Tracking
+  System Enumeration
+  Fuzzing
+  CMS Auditing
+  SSL Security Auditing
+  And Off Course This Tool Designed For Targetted Pentesting Too
+  Modules In Yuki Chan
+  Whois domain analyzer
+  Nslookup
+  Nmap
+  TheHarvester
+  Metagoofil
+  DNSRecon
+  Sublist3r
+  Wafw00f
+  WAFNinja
+  XSS Scanner
+  WhatWeb
+  Spaghetti
+  WPscan
+  WPscanner
+  WPSeku
+  Droopescan ( CMS Vulnerability Scanner Wordpress, Joomla, Silverstripe, Drupal, And Moodle)
+  SSLScan
+  SSLyze
+  A2SV
+  Dirsearch		  
+ 
+
+
+  >> Webiste hack yolunda zafiyet taraması  - Golismero - <<
+   
+ > git clone https://github.com/golismero/golismero.git 
+
+ Golismero website zaafiyet taraması yapıyor . Tarama birçok araçla yapılıyor . Bulduğu açıkları en son kısımda raporluyor .
+ Bulunan açıkların belirli seviyeleri var . Bazaıları düşük oranda bazıalrı yüksek oranda bazısı ise sadece bilgi amaçlı uyarıcılar gösteriyor .
+  
+ Zaafiyetlerin açıklamaları ve  çözümleri  araç sonunda belirtiliyor .
+ Daha fazla bilgi sahibi olmak için  REFERENCES adlı kısımda açıklar hakkında daha fazla bilgi sahibi olabileceksiniz.
+
+
+
+
+
+>>  website zaafiyetleri ve bilgileri - WIG <<
+
+>  git clone https://github.com/jekyc/wig.git 
+
+
+ Bilgi toplama ve website zaafiyet tespiti yapan bir araç . 
+
+- Site info 
+websites ile alakalı bilgileri gösteriyor .Site ip adresi ve site başlığını tespit ediyor. 
+
+- Version 
+İp ile alakalı sunucu bilgisi olabilir . Script bilgisi olabilir.
+
+- Subdomains 
+Alt alan adlarını listeler .
+
+-Interesting 
+Gizli kısımları tespit etmeye çalışıyor .Bilgi içeren kısımları tespit etmeye çalışıyor . Robots.txt dosyası veya /login/ kısmı bunlara örnektir .
+
+- Tools 
+Websitesinde taramada kullanılabilecek direkt zaafiyet odaklı farklı araçların isim ve indirme  linkleri yer alıyor.
+
+- Vulnerabilities 
+Websitesindeki zaafiyetlerin açıklandığı bölüm . Zaafiyetlerin çözümlenmesi için  adresler belirtiliyor .
+
+
+ 
+
+>> Websiteler için bilgi toplama ve zaafiyet tespiti <<
+
+> git clone https://github.com/bahaabdelwahed/killshot.git
+
+Genel olarak kullanılan özellikler aşağıdadır .
+
+
+FEATURES  
+
+- Menu Site
+
+{0} Spider (Bilgi toplama)
+{1} Web technologie 
+{2} WebApp Vul Scanner (Zafiyet tespiti )
+{3} Port Scanner (Açık/kapalı port tespiti)
+{4} CMS Scanner 
+{5} Fuzzers 
+{6} Cms Exploit Scanner (Websiteye yönetim sistemlerinde exploit arama)
+{7} Backdoor Generation (Arka kapı oluşturma ve bağlantı kurma)
+{8} Linux Log Clear (Linux log silme )
+
+
+- WebApp Vul Scanner
+
+{1} Xss scanner
+{2} Sql Scanner
+{3} Tomcat RCE
+
+
+- Port Scanner
+
+ [0] Nmap Scan
+ [1] Unicorn Scan
+Nmap Scan 
+ [2] Nmap Os Scan 
+ [3] Nmap TCP Scan
+ [4] Nmap UDB Scan 
+ [5] Nmap All scan
+ [6] Nmap Http Option Scan 
+ [7] Nmap Live target In Network
+Unicorn Scan
+[8] Services OS 
+[9] TCP SYN Scan on a whole network 
+[01] UDP scan on the whole network
+
+
+
+>> web güvenlik açıkları ve bilgi toplama - Striker - <<
+
+> git clone https://github.com/s0md3v/Striker.git
+ 
+Tarama yapılacak siteyi seçtikten sonra ilk önce whois bilgisi kontrol ediliyor .
+Daha sonra Robots.txt dosyasına bakılıp içeriğiyle alakalı bilgiler gösteriliyor.
+Sİtemap tespit edilebilir. 
+Port taraması gerçekleştirilir .
+Hedef ip adresinin karşılık geldiği websitelerini gösteriyor .Kısaca o sunucudaki websitelerini gösteriyor .

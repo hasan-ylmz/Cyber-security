@@ -1,0 +1,227 @@
+ ##  BİLGİ TOPLAMA EĞİTİMLERİ  ## 
+
+
+ 
+>> Website - Whois, Cloudflare, Lokasyon,Http , Honeypot vb bilgi toplama - RECONDOG- <<
+
+> Program indirme komutu : git clone https://github.com/s0md3v/ReconDog.git <
+
+
+
+- Bu araç 10 farklı alandan bilgi topluyor .  Alanlar sırasıyla :
+
+1. Whois looking 
+2. Dns lookup+ cloudflare detecting
+3. Zone transfer 
+4. Port scan
+5. Http header grabber   
+6. Honeypot detector
+7. Robots.txt Scanner
+8. Link grabber  
+9. Ip location finder 
+10. Traceroute 
+
+
+
+ >> Cloudflare Bypass -Hatcloud güncellendi <<
+ 
+ > Program indirme komutu : git clone https://github.com/HatBashBR/HatCloud.git <
+
+
+
+ - Ruby diliyle yazılan Hatcloud  cloudflare'i bypass ediyor bu sayede gerçek ip adresi(sunucu ip'si) öğreniliyor. 
+
+ Cloudflare nedir ?
+
+ CloudFlare; internet güvenliği, DDoS, içerik dağıtımı, alan adı ve sunucu konularında hizmet veriyor. 
+ Sitenizi güvenli ve hızlı bir şekilde yayınlayabilmenize imkân tanıyan  sistem, cache özelliği ile de sitenizi %30 oranında hızlandırabiliyor.
+ Siber saldırılara karşı da etkili olan servis, bu sayede ticari sitelerde de rahatlıkla kullanılabiliyor.
+
+
+
+ Cloudflare nasıl kullanılır ?
+  
+ Siteniz için tercih edeceğiniz hizmeti seçmenizin ardından CloudFlare tarafından size sunulan DNS‘leri sitenizin domain DNS’leriyle değiştirmeniz gerekiyor.
+ Bu işlemi tamamlamanızla birlikte siteniz koruma altına giriyor ve tercih ettiğiniz hizmetler hemen aktive oluyor.
+
+ ! Hatcloud sadece ücrestiz cloudflare paketerinde işe yarıyor . Ücretli paketlerde herhangi bir sıkıntı teşkil etmiyor .
+
+ 
+
+
+
+ >> Ağdaki cihaz, port ,işletim sistemi tespiti  -Netzapper- <<
+
+ > Program indirme komutu : git clone https://github.com/NetZapper/NetZapper.git <
+
+
+
+ Aracın 4 tane özelliği var :
+
+ 1. Hosts discovery (Ağdaki cihazları taramak )
+ 2. Ports scanning (Port tarama )
+ 3. Os detection (İşletim sistemi tespiti)
+ 4. Brute force ssh (SSH servislerine kabakuvvet saldırısı )
+
+ 
+ 
+ >> Sunucudaki siteleri tespit etmek <<
+
+  !  Bu konu önemli ! Hedef olarak belirlenmiş websitesinde herhangi br zafiyet bulunmadığı zaman o sitenin bulunduğu  sunucudaki 
+  başka websitlerine saldırı gerçekleştirilir.  Diğer sitelerde zafiyet bulunduğunda oradan hedef siteye geçiş yapılabilir .
+  Bu konu hakkında internette bulduğum başka bir yazı link(https://www.cozumpark.com/community/security-4/388635/): 
+ 
+ x.com sitesine ait public ip adresini tespit etmek oldukça basit (ping x.com)
+
+ Bazı Pentest v.b. çalışmalar da x.com sitesinde zafiyet bulunmasa bile aynı sunucudaki example.com sitesinde bulduğunuz bir zafiyet 
+ sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.
+ Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
+ Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? 
+ Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
+ 
+ NOT : SSL kullanan siteler genellikle shared ip adresi üzerinden değil, dedicated ip adresi üzerinden yayın yaptıkları için arama sonucunda 
+ farklı bir site çıkmayabilir   ancak o sunucu da farklı siteler host ediliyor olabilir.
+ 
+
+ Bu taramaları yapabilmek için 
+ link : https://wmaraci.com/sunucu-tarama   adlı siteden tarama gerçekleştirebilirsiniz.
+
+ !  Eğer cloudflare varsa burada pek bir şey yapamayız.  Asıl sunucu ip'si olmadığı için gösterilebilecek siteler snucudaki websiteler değil ,
+    koruma altındaki websitelerdir. Oradaki  websiteler cloudflare güvenlik duvarını kullanan sitelerdir . 
+
+
+
+ >> Webiste bilgi toplama ve zafyet tarama  - Red_hawk - <<
+
+ >  Program  indirme komutu :git clone https://github.com/Tuhinshubhra/RED_HAWK.git <
+
+
+
+ Program amacı bilgi toplama ve zafiyet taramsı yapmaktır .Yapılamsı gereken tek şey site adersini yazmak yapılacak işlemi seçmek ve beklemektir.
+
+ Programın özelikleri aşağıda belirtilrmiştrir .
+
+- Basic Scan
+- Site Title NEW
+- IP Address
+- Web Server Detection 
+- CMS Detection
+- Cloudflare Detection
+- robots.txt Scanner
+- Whois Lookup 
+- Geo-IP Lookup
+- Grab Banners 
+- DNS Lookup
+- Subnet Calculator
+- Nmap Port Scan
+- Sub-Domain Scanner 
+- Sub Domain
+- IP Address
+- Reverse IP Lookup & CMS Detection 
+- Hostname
+- IP Address
+- CMS
+- Error Based SQLi Scanner
+- Bloggers View NEW
+- HTTP Response Code
+- Site Title
+- Alexa Ranking
+- Domain Authority
+- Page Authority
+- Social Links Extractor
+- Link Grabber
+- WordPress Scan NEW
+- Sensitive Files Crawling
+- Version Detection
+- Version Vulnerability Scanner
+- Crawler
+- MX Lookup NEW
+- Scan For Everything - The Old Lame Scanner
+
+
+
+
+ >> Web site admin panel tespiti  - Breacher - <<
+
+
+ >  Program  indirme komutu :git clone https://github.com/s0md3v/Breacher.git
+
+ Admin  panel tespitinde en hızlılardan biri Breacher ' dir. 
+
+ 
+
+
+
+
+ >> Penetrasyon test aracı -Gloom Framework <<
+ 
+ > Program  indirme komutu : git clone https://github.com/joshDelta/Gloom-Framework.git
+
+
+------ Tools -------
+
+- Admin_panel_finder (website admin paneli )
+- ip_geoloaction   (ip adres lokasyon tespiti)
+- web_whois  (whois belgesini elde etmek )
+
+- discover_lan_devices (Lan'daki cihazları tespit etmek)
+- website_ip_resolver (website ip tespiti)
+- payload_generator  (windows payload oluşturma)
+
+- wifi_jammer (wifi ağlarını öldürmek )
+- listener  (bağlı cihazları listelemek )
+- check_email_branch (email varlık tespiti)
+
+
+------- FUZZİNG -------
+
+- waf_scanning (website güvenlik duvarı tespiti)
+- port_scanner (port tespiti)
+- anon_email (anonim email göndermek) 
+
+ ! Server üzerinden hizmet verildiği için mail her zaman gitmeyebilir .Server yoğunluğuna bağlı olarak mail gidiş süresi değişebilir.
+
+
+
+
+
+ >> İp adresleri hakkında bilgi toplama , analiz yapma <<
+ 
+ 
+ 
+ > Program indirme komutu : git clone https://github.com/Manisso/Crips.git
+
+ Herhangi bir ip adresi  üzerinde analiz yapıp , bilgi toplayabiliriz.
+ 
+ ------- TOOLS -------
+
+- Whois lookup 
+ 
+İp adresi'nin kime ait olduğu ve kişi hakkında bilgiler elde ediliyor .Hatta konum bilgisi dahi elde edilebiliyor .
+
+
+- Traceroute
+
+İp'nin hangi serverlardan geçtiğini gösteriyor .  Bu araç penetrasyon testlerinde de kullanılabiliyor. 
+
+
+- DNS Lookup
+
+- Reverse DNS Lookup
+
+İp ' nin karşılık geldiği dns serverı gösterir.
+
+
+- GeoIP Lookup
+
+Ip'nin bulunduğu koordinat bilgisini verir.
+
+
+- Port Scan
+
+İp üzerinde port taraması yapılıyor.
+
+
+- Reverse IP Lookup 
+
+İp adresine karşılık gelen websiteleri gösteriyor.

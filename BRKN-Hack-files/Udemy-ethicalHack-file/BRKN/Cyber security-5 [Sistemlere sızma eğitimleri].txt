@@ -1,0 +1,27 @@
+ ## Sistemlere sızma eğitimleri ## 
+  
+>> Windows 10 sızma testi - 80 port http << 
+
+
+>> Lİnux için backdoor oluturma - Zerodoor - << 
+
+
+>> Bilgisayar nasıl hackleniyor -RAR görünümlü trojan -TheFatrat <<
+
+
+>> Uzak bilgisayar kontrolu -r Remote pc - Server , client << 
+
+
+>> Uzak bilgisayar kontrolu - Winodws/linux - Putty <<
+
+
+>> Window işletim sistemiyle penetrasyon testleri -Powersploit - << 
+
+
+>> Office dosyalarının güvensizliği -İnsanity framework - <<
+
+
+>> Bilgisayar nasıl hackleniyor - %90 FUD - BAT Trojan <<
+
+
+>> SQLMap 'ın görsel olarak kullanılması - SQLMap Web Guis
