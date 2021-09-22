@@ -36,7 +36,7 @@
  8. Click Jacking Detection
  9. Powerful XSS vulnerability scanning
  10. SQL Injection vulnerability scanning
- 11. User-Friendly UI
+
 
 
 
