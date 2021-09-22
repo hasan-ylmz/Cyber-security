@@ -1,1 +1,23 @@
-.
+
+
+                                ## DİSK ANALİZİ ##
+                                
+>> Harddisk Analizi & Autopsy <<
+
+
+>>  Bilgisayar Adı ve Kullanıcılar <<
+
+
+>> Ip adres ve Mac adres << 
+
+
+
+>> Ağ kartı ve konum bilgisi <<
+
+
+>> Resim/video bulma ,Powershell geçmişi <<
+
+
+>> Hack tool bulma <<
+
+zamanla yazılar yüklenecektir .
