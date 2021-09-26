@@ -22,7 +22,7 @@
  > git clone https://github.com/bibortone/D-Tech.git 
  
   D-TECT Penetrasyon araçlarının  toplandığı bir uygulama . Penetrasyon testi yapanlar ve güvenlik araştırmacıları 
-   bu araçaları kullanabilir .  
+   bu araçları kullanabilir .  
  
   - Özellikler - 
   
@@ -68,8 +68,7 @@
 
  > git clone  https://github.com/1aN0rmus/TekDefense-Automater.git 
 
- İp adresinin kara listede olup olmadığını kontrol ediyor . İnternet sağlayıcı ,
- lokasyon bilgisi ve farklı konularda sorgulama yapıyor .
+ İp adresinin kara listede olup olmadığını kontrol ediyor . İnternet sağlayıcı ,lokasyon bilgisi ve farklı konularda sorgulama yapıyor .
 
  - Hash değeri -
 
@@ -129,7 +128,7 @@
  > git clone https://github.com/golismero/golismero.git 
 
  Golismero website zaafiyet taraması yapıyor . Tarama birçok araçla yapılıyor . Bulduğu açıkları en son kısımda raporluyor .
- Bulunan açıkların belirli seviyeleri var . Bazaıları düşük oranda bazıalrı yüksek oranda bazısı ise sadece bilgi amaçlı uyarıcılar gösteriyor .
+ Bulunan açıkların belirli seviyeleri var . Bazıları düşük oranda bazıları yüksek oranda bazısı ise sadece bilgi amaçlı uyarıcılar gösteriyor .
   
  Zaafiyetlerin açıklamaları ve  çözümleri  araç sonunda belirtiliyor .
  Daha fazla bilgi sahibi olmak için  REFERENCES adlı kısımda açıklar hakkında daha fazla bilgi sahibi olabileceksiniz.
@@ -146,7 +145,7 @@
  Bilgi toplama ve website zaafiyet tespiti yapan bir araç . 
 
 - Site info 
-websites ile alakalı bilgileri gösteriyor .Site ip adresi ve site başlığını tespit ediyor. 
+websitesi ile alakalı bilgileri gösteriyor .Site ip adresi ve site başlığını tespit ediyor. 
 
 - Version 
 İp ile alakalı sunucu bilgisi olabilir . Script bilgisi olabilir.
@@ -155,7 +154,7 @@ websites ile alakalı bilgileri gösteriyor .Site ip adresi ve site başlığın
 Alt alan adlarını listeler .
 
 -Interesting 
-Gizli kısımları tespit etmeye çalışıyor .Bilgi içeren kısımları tespit etmeye çalışıyor . Robots.txt dosyası veya /login/ kısmı bunlara örnektir .
+Gizli kısımları , bilgi içeren kısımlarıtespit etmeye çalışıyor .  Robots.txt dosyası veya /login/ kısmı bunlara örnektir .
 
 - Tools 
 Websitesinde taramada kullanılabilecek direkt zaafiyet odaklı farklı araçların isim ve indirme  linkleri yer alıyor.
