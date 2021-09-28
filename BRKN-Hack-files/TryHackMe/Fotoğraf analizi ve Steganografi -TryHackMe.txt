@@ -25,7 +25,7 @@
 
 		## STEGANOGRAFİ ##
  
- >> Steganografi resme dosya gizleme sanatıdır. 
+ >> Steganografi resme dosya gizleme sanatıdır. Resimde gizli olan dosyaları çıkarmayı ve dosya eklemeyi  bu notta  bulabileceksiniz .
 
 
  >> Steghide <<
