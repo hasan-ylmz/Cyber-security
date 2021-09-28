@@ -58,10 +58,10 @@
 
  Aracın 4 tane özelliği var :
 
- 1. Hosts discovery (Ağdaki cihazları taramak )
- 2. Ports scanning (Port tarama )
- 3. Os detection (İşletim sistemi tespiti)
- 4. Brute force ssh (SSH servislerine kabakuvvet saldırısı )
+ 1. Hosts discovery 
+ 2. Ports scanning 
+ 3. Os detection 
+ 4. Brute force ssh 
 
  
  
@@ -95,9 +95,7 @@
 
  >  Program  indirme komutu :git clone https://github.com/Tuhinshubhra/RED_HAWK.git <
 
-
-
- Program amacı bilgi toplama ve zafiyet taramsı yapmaktır .Yapılamsı gereken tek şey site adersini yazmak yapılacak işlemi seçmek ve beklemektir.
+ Program amacı bilgi toplama ve zafiyet taraması yapmaktır .Yapılması gereken tek şey site adresini  yazmak yapılacak işlemi seçmek ve beklemektir.
 
  Programın özelikleri aşağıda belirtilrmiştrir .
 
@@ -196,32 +194,22 @@
  ------- TOOLS -------
 
 - Whois lookup 
- 
 İp adresi'nin kime ait olduğu ve kişi hakkında bilgiler elde ediliyor .Hatta konum bilgisi dahi elde edilebiliyor .
 
-
 - Traceroute
-
 İp'nin hangi serverlardan geçtiğini gösteriyor .  Bu araç penetrasyon testlerinde de kullanılabiliyor. 
 
 
 - DNS Lookup
 
 - Reverse DNS Lookup
-
 İp ' nin karşılık geldiği dns serverı gösterir.
 
-
 - GeoIP Lookup
-
 Ip'nin bulunduğu koordinat bilgisini verir.
 
-
 - Port Scan
-
 İp üzerinde port taraması yapılıyor.
 
-
 - Reverse IP Lookup 
-
 İp adresine karşılık gelen websiteleri gösteriyor.
