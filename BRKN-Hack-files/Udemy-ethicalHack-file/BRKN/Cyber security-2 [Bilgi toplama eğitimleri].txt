@@ -44,7 +44,7 @@
  Siteniz için tercih edeceğiniz hizmeti seçmenizin ardından CloudFlare tarafından size sunulan DNS‘leri sitenizin domain DNS’leriyle değiştirmeniz gerekiyor.
  Bu işlemi tamamlamanızla birlikte siteniz koruma altına giriyor ve tercih ettiğiniz hizmetler hemen aktive oluyor.
 
- ! Hatcloud sadece ücrestiz cloudflare paketerinde işe yarıyor . Ücretli paketlerde herhangi bir sıkıntı teşkil etmiyor .
+ ! Hatcloud sadece ücrestiz cloudflare paketerinde işe yarıyor . Ücretli paketlerde hatcloud işe yaramıyor  .
 
  
 
@@ -53,8 +53,6 @@
  >> Ağdaki cihaz, port ,işletim sistemi tespiti  -Netzapper- <<
 
  > Program indirme komutu : git clone https://github.com/NetZapper/NetZapper.git <
-
-
 
  Aracın 4 tane özelliği var :
 
@@ -77,7 +75,7 @@
  sizin x.com sitesinin datalarına ulaşmanızı  saglayabiliyor.
  Bu nedenle hedef site ile birlikte hedef sitenin host edildiği sunucudaki diğer sitelerde saldırganlar için önem arz ediyor.
  Peki saldırganlar x.com sitesinin host edildiği sunucudaki diğer siteleri nasıl tespit ediyor? 
- Cevap basit, arama motorlarını kullanarakbing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
+ Cevap basit, arama motorlarını kullanarak bing.com da"ip:1.1.1.1" şeklinde aradığınızda 1.1.1.1 ip adresi üzerinden yayın yapan sitere erişebilirsiniz.
  
  NOT : SSL kullanan siteler genellikle shared ip adresi üzerinden değil, dedicated ip adresi üzerinden yayın yaptıkları için arama sonucunda 
  farklı bir site çıkmayabilir   ancak o sunucu da farklı siteler host ediliyor olabilir.
@@ -97,7 +95,7 @@
 
  Program amacı bilgi toplama ve zafiyet taraması yapmaktır .Yapılması gereken tek şey site adresini  yazmak yapılacak işlemi seçmek ve beklemektir.
 
- Programın özelikleri aşağıda belirtilrmiştrir .
+ Programın özelikleri aşağıda belirtilmiştir.
 
 - Basic Scan
 - Site Title NEW
@@ -139,8 +137,8 @@
 
 
 
- >> Web site admin panel tespiti  - Breacher - <<
 
+ >> Web site admin panel tespiti  - Breacher - <<
 
  >  Program  indirme komutu :git clone https://github.com/s0md3v/Breacher.git
 
@@ -150,16 +148,14 @@
 
 
 
-
  >> Penetrasyon test aracı -Gloom Framework <<
  
  > Program  indirme komutu : git clone https://github.com/joshDelta/Gloom-Framework.git
 
-
 ------ Tools -------
 
 - Admin_panel_finder (website admin paneli )
-- ip_geoloaction   (ip adres lokasyon tespiti)
+- ip_geoloaction  
 - web_whois  (whois belgesini elde etmek )
 
 - discover_lan_devices (Lan'daki cihazları tespit etmek)
