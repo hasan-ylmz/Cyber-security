@@ -1,31 +1,53 @@
 
 
+
 		## FOTOĞRAF ANALİZİ ##
+
+Bu yazı sayesinde bir fotoğrafın kime ve nereye ait olduğunu , bu fotoğraf kullanılarak neler yapılabileceğini göreceksiniz.
  
  >> Sosyal medya hesabı <<
-
-
-
- >> Şehir ve konum <<
+ 
+- Eğer elimizde bir resim  varsa resmin özellikleri kısmını kontrol etmek orada ipucu bulabilmek ya da stegonografi yöntemiyle bilgi toplamak 
+- Aracımız ExifTool'dur . exiftool xyz.jpeg yazarak resmi taramaya başlıyor . Resmin etiketlenmiş konumunu görüyoruz . Resmin tarihleriyle alakalı biligleri göruyoruz. Copyright   kısmı önemli .
+  Bu kısımda belki bir isim , belki bir hesap ismine ulaşabiliriz . Daha sonra ulaştığımız sonuca farklı arama  motorlarında inceliyoruz . Bu hesap veya isim hakkında bilgi       topluyoruz.
 
 
 
  >> Wifi ,Ssid ,Bssid ,Konum <<
 
+- Ssid = Wifi ağlarının görünen isimleridir . 
+- Bssid = Bağlanılmış olan modemin mac adresi .
+- Bssid biligisiyle hem konum hem de ssid öğrenmek mümkün. 
+- Wiggle.net 'e Bssid bilgisini giriyoruz .BU sayede ssid bilgisini öğreniyoruz .Ssid ile Bssid bilgisine ulaşmak da mümkün. Aramayı yaptıktan sonra biraz haritayı büyütmemiz     gerekiyor .
+  Direkt olarak o konuma yönlendirmiyor .
+
+
 
 
  >> Mail ve blog << 
-
-
+ 
+- Herhangi bir sosyal medya hesabında mail bilgisine ulaşmak münkün. İlk başta bulduğumuz  ismi taratarak bir sosyal medya hesabından mailini bulabiliriz . Basit olsa da etkili   bir yöntem 
 
 
  >> Konum ve parola <<
+
+- İnsanlar bloglarında ya da  sosyal medya hesaplarında kendileriyle ait olan bilgileri çok rahatlıkla paylaşabilirler .Yapacağınız ufak bir araştırma daha önce ile  nerede       ikamet ettikleri ,
+  nelerden hoşlandıklarından hiç düşünemeyeceğiniz bilgilere ulaşabilirsiniz. Konum bulma ile alakalı daha farklı yöntemler olsa da bu yöntem de uygulanmaya değerdir .
+
+- Şifre içinse insanlar bazen sistemlerini, hesaplarını uzun şifrelerle korurlar .Fakat bu şifreleri hatırlamak istemezler .Hatırlamak yerine şifreyi sistemlere veya hesaplarına   saklarlar .Hatta direkt sayfada yazabilirler .Sayfa rengiyle aynı yaparak , şifreyi görünmez yaptıklarını düşünebilirler . Fakat birkaç şeyi unuturlar . 
+  Yaptıkları şifre kaynak kodunda     gözüküyordur. Veya yanlışlıkla birisi mouse ile o nesneyi seçerse görünür olacaktır . Kaynak kodunda görebilmek için de sağ tık yaparak 	   kaynak koduna bakıp ctrl yapıp sayfa kaynağında arayacağımız nesneyi yazabiliriz. 
+  
+ÖR ) Beyaz arka planlı bir webistesinde belki de admin site arkaplanıyla kamufle olacak şekilde bir şifresini yazı olarak koymuştur .Yapacağınız şey ctrl +  #fff yapıp sayfa kaynağında sayfayla aynı renkteki yazılar veya nesneleri çıkartır . Bu sayede görünmez şifreler görünür olur . Her yazının şifre olduğu söylenemez . En ufak bir bilgi bile önemli olduğu için denemekte yarar var .
+  
+  Durum biraz gerçek dışı gelse de gerçekleşebilecek olma ihtimali yöntemi denemek için yeterlidir .
+
+
 
 
 
 		## STEGANOGRAFİ ##
  
- >> Steganografi resme dosya gizleme sanatıdır. Resimde gizli olan dosyaları çıkarmayı ve dosya eklemeyi  bu notta  bulabileceksiniz .
+ >> Steganografi resme dosya gizleme sanatıdır. 
 
 
  >> Steghide <<
@@ -43,6 +65,7 @@
 
 
  >> Spectograms oluşturma << 
+
 
 
 
