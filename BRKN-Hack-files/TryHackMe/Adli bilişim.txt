@@ -1,23 +1,58 @@
 
-
-                                ## DİSK ANALİZİ ##
-                                
->> Harddisk Analizi & Autopsy <<
-
-
+  ## DİSK ANALİZİ ##
+ 
+ > Herhangi bir adli analizde hangi aşamalardan(belli bir kısmını ) geçildiğini bu yazıda bulabileceksiniz . Diskin incelenme süreci hakkında fikir sahibi olacaksınız.                                  
 >>  Bilgisayar Adı ve Kullanıcılar <<
+
+- Hash değeri dosyada herhangi bir değişikilk olup olmadığını kontrol ediyor . Yapılan değişikliklerde hash değeri de değişiyor .Hash değeri dosyanın değişip değişmediğini         anlamamızı sağlayan bir  bilgi .Adli olaylarda dosya hash bilgileri kontrol edilir .  
+  Kullanılan uygulama Autopsy adlı uygulamadır. Adli işlemlerde de kullanılır  . Dosyayı seçip daha sonra dosya dizinini  belirtmemiz isteniyor . Daha sonraki adımda data         sources kısmına gelip harddisi seçiyoruz. Seçtikten sonra file metedata kısmında MD5(Hash) ve SHA1(SHA1 (Secure Hashing Algorithm), şifreleme algoritmaları arasında en çok       kullanılan, NSA (National Security Agency) tarafından geliştirilen bir şifreleme algoritmasıdır.) değerini görebiliriz .
+
+- Bilgisayar adı ise Operation system information > Name kısmından ulaşıyoruz.
+
+- Bilgisayardaki kullanıcılar içinse , Operating System User Account>Username kısmındaki kişiler . Software dışındaki kişileri seçeceğiz . Software sistemle alakalı isimler       olabilir .
+
 
 
 >> Ip adres ve Mac adres << 
+
+- En son giriş yapan kullanıcı hakkında bilgi sahibi olmak mümkün . Operating System User Account > Data Created = Data Accessed .  En son giriş yapan kullanıcı Data Accessed     kısmında yer almaktadır. 
+ 
+- IP ve Mac adreslerini bulabilmek  için farklı teknikler olsa da , bir ağ izleme programı kurulup kurulmadığına bakıyoruz . Eğer böyle bir uygulama kurulduysa dosyalar içinde     herhnagi bir IP veya Mac adresine ulaşabiliriz. 
+  Installed Programs kısmında yüklenen programlar listeleniyor . Buradaki uygulama dosyalarını tek tek incelemeniz gerekiyor .Bakılan program listesinde herhangi bir ağ izleme     programı bulduysak (wireshark ,looklan vb .) 
+  Dosya içinde IP veya Mac adresi bulabilmek için program kurulu olduğu için Confıguratıon kısmına  gitmemiz gerekiyor .Confıguratıon kısmına gitmek içinse harddiskteki program   files kısmına gitmemiz lazım .
+  Diske giderek hangisinde windows sistemi kurulmuş ona bakıyoruz kısaca Windows sistem dosyalarının kurulu olduğu diski seçiyoruz . Program files 'ın dosya içeriklerine           bakıyoruz. Eğer bulamazsak program files'ın diğer dosya çeşitlerine bakıyoruz . 
+  Ağ izleme program klasörüne ulaşarak confıguratıon dosyasını açarak IP adresi ,Mac aderesi , kullanıcı ismi bilgilerine erişim sağlyabiliyoruz.
 
 
 
 >> Ağ kartı ve konum bilgisi <<
 
+- Ağ kartını öğrenmek için System Informatıon > Software > Application > Microsoft > Windows NT > CurrentVersion > NetworkCards
+  Ağ kartları bu bölümde listeleniyor.
+
+- Bir lokasyon bulabilmek için Web Booksmarks > Url = Title  kısmından daha önce herhnagi bir konumda maps kullanıp kullanılmadığına bakılabilir. Bookmark üzerine sağ tıklayıp     Properties kısmından direkt konum bilgisine  ulaşabiliyoruz .
+
 
 >> Resim/video bulma ,Powershell geçmişi <<
+ 
+- Kulanıcıların resim ve videolarının tutulduğu özel bir bölüm var. Bu bölüm Image/Videos kısmıdır . Bütün resim video materyallerine ulaşma imkanı  sağlar . Resim veya video     üzerine gelip sağ tık yapıp  Extract files kısmını seçersek de dosyalar dışarıya akatarılır . 
+ 
+- Data source > Sistemin kurulu olduğu kısım > Users > x (kullanıcı ismi) >Roaming > Microsoft > Windows > Powershell > PSreadline > ConsoleHostHsitory.txt 
+  ConsoleHistory.txt  adlı dosyada powershell geçimişini görüntüleyebiliyoruz .Aynı işlemi diğer kullanıcılar içinde yapmak mümkün .
+ 
 
 
 >> Hack tool bulma <<
 
-zamanla yazılar yüklenecektir .
+- Bu araçlar hack aracı oldukları için tespit edilip imha edilmiiş olabilir . Windows defender tarama geçmişine  bakılarak bu işlem yapılabilir.
+  Data sources>  Sistemin kurulu olduğu kısım > ProgramData >  Microsoft > Windows Defender > Scans > History > DetecetionHistory 
+  Bu dizin ile hack aracı bulmamız olası . DetecetionHistory kısmındaki her bir klasör daha önce yapılan bri taramayı gösteriyor . Klasör içlerinde yapılan taramaaya ilşkin       raoprlar sunuluyor . Raporlarda hack toolu bulabliriz . Veyahut yapılan işlem hakkında bilgi sahibi olabiliriz .
+
+- YARA file = Kötü  amaçlı dosyaları sınıflandırmak için kullanılan dosyalardır .Uzantıları .yar şeklindedir .Autopsy'de sağ üst köşede keyword search kısmından istediğimiz       kelimeyle alakalı arama yapabiliyoruz.  Buraya .yar kelimesini yazıyoruz. 
+
+- Sistemdeki arşiv dosyalarına  bakmamız gerekebilir bunun için bütün dosya içeriğine  veya son kullanılan dosyalara bakılır.
+  Recent Documents sistemde son kullanılan dosyaları görüntülememizi sağlar . 
+
+
+
+
