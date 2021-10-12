@@ -1,2 +1,89 @@
    ## Web security 101 0×01 SQL Injection'ı Bütünüyle Anlamak ## 
-Notlar zaman içinde yüklenecektir.
+
+
+
+
+ En basit  tabiriyle  Sql injection saldırganların yazdığınız web uygulamasını kullanrak kendi sql  sorgularını çalıştırmalarıdır .
+ Sistemi anlamadan işlem yapmak pek olası değil .
+
+  SORU-1 ) 
+  SELECT 1 sorgusu hangi sonucu verir ?
+  a) 1
+  b) Syntax hatası 
+  c) Boş sonuç 
+ 
+ CEVAP = 1 ,sebebi ise veritabanı seçmeden from kullanmadan mysqlde select 1 derseniz sonuç 1 olur .
+
+ Mysql'de iki satır 1 görüyorsun birisi kolon adı diğeri ise verisi ; 
+ sebebi ise veritabaında bir sorgu çalıştığında  dönen indisinde bir değer olur ve genellikle bu kolon adıdır . 
+ 
+
+ SORU-2 )
+ SELECT 2-1 sorgusu hangi sonucu verir ?
+ a) hata verir .
+ b) 1
+ c) boş 
+ 
+ CEVAP =1 Veritabanı çıkarma işlemini gerçekleştirir. Aynı şekilde toplama işlemini de yapar  . 2+1 =3 
+
+
+ SORU-3 ) 
+ SELECT '2-1' sorgusu hangi sonucu verir ?
+ .........
+ 
+ CEVAP = '2-1' .Çünkü ifade string olduğu için aynı ifadeyi yazdırır .
+
+ SORU-4 ) 
+ SELECT '2'-'1' sorgusu hangi sonucu verir ?
+ a) Error 
+ b)Syntax   
+ c)1 
+ 
+ CEVAP = 1 .Veritabanı string bir ifadeden string bir ifadeyi çıkartmak istiyorsun fakat integer' a cast edebiliyorum, o şekilde de sonuç 2 oluyor .O zaman çıkarırım diyormuş veritabanı
+
+ 
+ SORU-5 ) 
+ SELECT '2'+'1' sorgusu hangi sonucu verir ? 
+
+ CEVAP = 3 Çıkarma işlemindeki mantıkla aynı şekildedir. 
+
+ SORU-6 ) 
+ SELECT '2'+'a' sorgusu hangi sonucu verir ?
+ a) 2a
+ b) 2 
+ 
+ CEVAP = 2 . Sebebi string bir ifadeyle string bir ifadeyi integera cast edebiliyor . a'yı integera cast edemiyor . O yüzden A sıfır alınıyor .
+
+ SORU-7 ) 
+ SELECT 'b'+'a' sorgusu hangi sonucu içerir .
+
+ CEVAP = 0 
+
+ 
+ SORU-8) 
+ SELECT '2' '1'  hangi sonucu verir ?
+ 
+ CEVAP = 21 .String concat işlemi yapıyor . 
+
+
+ 
+ SORU-9) 
+ '2' '1' 'A' sorgusu hangi sonucu verir ?
+
+ CEVAP = 21A .
+
+
+ SORU-10) 
+ SELECT '2' '1' 'a-1' sorgusu hangi sonucu verir ?
+
+ CEVAP = 21+0-1 sebebi ise a sıfır olarak alınıyor ve diğer rakamlar toplanıyor .
+
+
+ SORU-11) 
+ SELECT 2^1 angi sonucu verir ?
+
+ CEVAP = 3 .Sebebi proglamlama dilinde üssü operandı olmaz .Olursa da bazı kütüphaneler yardımıyla olur .
+ 
+
+ Yaznının bir kısmı yüklenmiştir .Geri kalan kısmı yüklenecektir .İlk başta sql'in primitive özelliklerinin bir kısmı kavranıp sql injection'ı daha iyi anlama amacı güdülmüşütür . Üstteki durumları iyice anlamamız yapacağımız sorguları daha kolay yapmamızı sağlar.
+ 
