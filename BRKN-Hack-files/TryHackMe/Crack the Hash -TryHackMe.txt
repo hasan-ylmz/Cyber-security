@@ -1,31 +1,217 @@
-			-	TryHackMe	-
-
-			## 	Crack the Hash 	   ## 
-
-- Hash algoritmaları ve nasıl kırıldığını yazıda bulabileceksiniz  .
 
 
+											## Crack the Hash ## 
+
+/*https://tryhackme.com/room/crackthehash*/
+
+
+- Hash algoritmalarının yapısını  ve nasıl kırıldığını burada bulabileceksiniz.
 
 >> MD5 <<
 
->> SHA1 <<
 
->> SHA256 <<
+>>  MD5 NEDİR ? 
+MD5 (Message-Digest algorithm 5), yaygın olarak kullanılan bir kriptografik özet fonksiyonudur. Girilen verinin boyutundan bağımsız olarak, 128-bit özet değeri üretir. 
+MD5 ilk olarak kriptografik özet fonksiyonu olarak tasarlanmış olmasına rağmen geniş çaplı güvenlik açıkları tespit edilmiştir. 
+Veri bütünlüğünün sağlandığını kontrol etmek için sağlama değeri üretmek amacıyla kullanılır. 
+Ancak sadece kasıtsız yapılan değişiklere karşı kullanışlıdır.Birçok özet (hash) fonksiyonu gibi MD5 da şifreleme algoritmaları içermez. Kaba kuvvet saldırısı ile kırılabilir,  geniş çaplı güvenlik açıklarından muzdariptir.
+
+MD5 , Ron Rivest tarafından 1991 yılında, daha önceki versiyon olan MD4 yerine kullanılması amacıyla tasarlanmıştır. RFC 1321'deki kaynak kodu RSA lisansı içerir. 
+"MD" kısaltması "Mesaj Özeti (Message Digest)" anlamına gelmektedir.
+
+MD5'ın güvenilirliği ciddi olarak sarsılmıştır. İçerdiği güvenlik zafiyetleri sahada da kullanılmıştır, bunlardan en önemlisi 2012'deki Flame kötücül yazılımıdır(Flame malware). 
+CMU Yazılım Mühendisliği Enstitüsü MD5'ı için "kriptografik açıdan kırılabilir daha fazla kullanım için uygun değildir" açıklamasında bulunmuştur.
+
+
+- MD5 kırılma işlemi - 
+
+Bir hash algoritmasıyla karşılaştığınız zaman yapacağınız ilk iş websitelerinden yararlanmak olacaktır. Hash algoritması daha önce kırılmış olabilir .
+Direkt olarak araç kullanıp kırmak yerine önce  websitelreinde hashlerin kırılıp kırılmadığına bakarız .
+Veya daha önce bir yerde paylaşılmış bir hash  algoritmasıysa bulmamız mümkün olacaktır . 
+
+
+
+>> SHA1 << 
+
+Kali linuxta hash kırmak için kullanabileceğimiz iki tane tool var . 
+
+1)hashidentifer
+Bu araç ile hash tipini öğreniyoruz. Yüksek ihtimalle bir hash type 'ı gösterir 
+
+2) hashid
+
+Hash algoritmasını bunlarla kırmayı deneriz . Eğer hash kırılmazsa hash kodunu alıp hashcat aracıyla hashi kırarız. 
+
+
+
+>> HASHCAT NEDİR ? 
+
+Hashcat onlarca farklı opensource yazılımı için salt cracking, 20 farklı algoritmaya göre cracking işlemi yapabilmektedir.
+
+- Hashcat ve Şifre Kırma Teknikleri -
+
+- Brute Forcing:
+Brute Forcing isimli şifre kırma yaklaşımı, teknik olarak kolay bir çalışma olmasına karşın dezavantajları vardır. Tüm kombinasyonları denemek gerekmektedir. 
+Bu da bolca zaman gerektirmektedir.
+Ufak bir örnek verirsek; Türkçe özel karakterlerin çıkarıldığı a-z aralığında ki harflerden ve 0-9 aralığında ki rakamlardan oluşan 5 haneli bir şifre için test edilmesi 
+gereken toplam olasılığın sayısını;
+
+a-z = 26 karakter
+0-9 = 10 karakter
+(26+10)^5 = 52.521.875 olasılık demektir.
+
+- Dictionary Attacks:
+Sözlük saldırıları için hazırlanan word listlerde olabildiğince kelimeler, isimler, 123456 gibi weak password’ler bulunur. Bu listelerde bulunan her sözcüğün hash’i alınarak kırılmak istenen hash ile karşılaştırılır. 
+Doğal olarak bu cracking mantığının başarısı wordlistinizin kalitesi ile doğru orantılıdır. Word list’in başarı oranını ve boyutunu artırmak için; word list’te bulunan kelimelerin birbirleriyle kombinasyonları yapılmaktadır.
+
+- Rainbow Tables:
+Hash karşılığı bilinen kelimelerin bir listede tutulmasıyla Dictionary Attacks saldırılarına çok benzemektedir. Tek fark ise bu saldırı türünde herhangi bir hashing işlemi yapılmamaktadır. 
+Hash kırma çalışmalarının en önemli noktası kısa sürece sonuca ulaşmak olduğu için, kırılması istenen hash ile Rainbow tables’da tutulan hashler ile karşılaştırılır. 
+Eğer bir eşlenme gerçekleşir ise bu hash’in karşılığının hangi kelime olduğu Rainbow tables’dan kontrol edilir. 
+Bu sayede herhangi bir hashing işlemi gerçekleşmediği için süreç çok daha hızlıdır.
+
+Rainbow Table üzerinden yapılan saldırılardan korunmak için uygulama geliştiriciler salts ekleme mantığına gitmişlerdir. Kullanıcı şifre olarak kendisine “bga” kelimesini seçerse, yazılım şifrenin hashini almadan önce bir prefix yahut postfix eklemesi gerçekleştirir. 
+“bga321!” olarak eklenir ve bu şekilde hash’i alınır. Bu durumda opensource olmayan uygulamaların veri tabanı ele geçirildiğinde salt grubun ne olduğu bilinmediği için veriler korunabilmektedir.
+
+- Hybrid Attacks:
+Wordlist ve brute forcing saldırılarının kombinasyonudur. Wordlist’te ki kelimelerin sonuna yahut başına sayılar eklenmesiyle yapılan saldırı tekniğidir. 
+Rainbow Table’da bahsettiğimiz “salt” uygulamasına karşı başarı gösterebilecek bir hash cracking tekniğidir.
+
+- Mask Attacks:
+Generate edilmeyen yani kullanıcılar tarafından girilen şifrelerin hashlerini kırmak için kullanılabilecek en ideal hash cracking mantıklarından birisidir.Bir çok insan şifresinin son hanelerine doğru rakam kullanmakta yahut şifresinin ilk karakteri büyük harfle başlamakta.
+Mask Attaks ise bu durumu spesifik olarak belirtebildiğimiz pattern’lerden yararlanarak hash cracking işlemleri gerçekleştirmektedir.
+
+!! Peki hangi yöntemi Seçmeli? Eğer aynı anda olabildiğince çok hash cracklemek istiyorsanız Hybrid ve Mask ataklar daha fazla başarı gösterecektir. Tek bir hash’e yönelik cracking çalışmalarında ise Dictionary yahut Rainbow tercih edilebilir.
+
+
+-hashcat in kali command prompt-   
+-----------------------------------------------------------
+| hashcat -m 100 hash.txt /usr/share/wordlist/rockyou.txt | 
+-----------------------------------------------------------
+
+/usr/share/wordlist/rockyou.txt = kalideki bir wordlist .
+hash.txt = kırılmaya çalışılan hash değeri bulunan dosya 
+100 = hash kodu
+
 
 
 >> BCRYPT <<
 
+hash = $2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom
 
->> MD4 <<
+Her zaman hashid ve hashidentfier ile hash türü belirlenemeyebilir . Bu tür durumlarda elimizdeki algoritmanın hash olup olmadığına bakılır .Bunun tespiti için  hash analyzer aracı ile hash değerlerine bakılır .
+Veya farklı webisiteleri ile analiz edilir .Elimizdeki örnekteki hash değeri bcrypt olarak geçiyor .
+ 
+hashcat'te kırabileceği hash değerlerine bakmak için aşağıdaki parametreyi yazmamız yeterli :
+
+-------------------
+| hashcat -h      | 
+-------------------
+
+Ama ufak bir sorunla karşılaşıyoruz. Hashcat'in kırabileceği hash şifreleri çok fazla .
+Bu şifrelerin arasından   hash değeri bcrypt olanı bulmamız gerekiyor . Bunu bulmak için şunu yazmanız yeterli :
+
+-------------------------------------------
+| 	hashcat -m | grep bcrypt  	  |
+-------------------------------------------
+
+grep = hashcat içndeki bcrypt geçen hash türlerini gösteriyor .
 
 
->> SHA256  v2 <<
+Şimdi de hashi kırma işlemine geçelim. 
+
+-------------------------------------------------------------------------------
+| hashcat -m 3200 /root/Masaüstü/hash.txt  /usr/share/wordlists/rockyou.txt   |
+-------------------------------------------------------------------------------
+
+Dosya belirtilen dosyaya göre denemesi uzun sürebilir . Belki  de haftalarca hash'i kırmaya çalışabilir .
+Tahmini başlangıç ve bitiş sürelerini araç belirtiyor Eğer dosyanın ortalarında şifreyi çözerse daha kısa sürede hash'i kırabilir . Bilgisayardaki işlemci burada önemlidir .
+Farklı hash türlerini çözümünde bile bu süre farkı  olabilir . 
+
+$2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom: bleh
 
 
 >> NTLM <<
 
+Hash: 1DFECA0C002AE40B8619ECF94819CC1B
+
+hashidentifier aracında hash türünün md5 olabileceği söyleniyor . Hashid aracı ile ise md5 veya md4 olabileceği söyleniyor . 
+Hash analiz eden bir siteye baktığımızda ise hash türü md5 veya md4 olabileceği görülüyor . Başka bir analiz sitesinde ise NTLM 
+olduğunu gösteriyor. 
+
+Eğer hash algoritmalarına karşı bir göz aşinalığımız oluşursa bunun NTLM olduğunu anlayabiliriz . MD5, MD4  ve  M2  genellikle  küçük harflerden oluşur .
+NTLM ise büyük harflerden oluşur . Zaman içinde hash algoritmalarına alışmanız halinde bunları daha iyi anlayıp ,kısa sürede sorunu çözebilirsin. 
+
+-----------------------------------------------------------------------
+| Hash			       	     |	Type   |        Result        |
+| 1DFECA0C002AE40B8619ECF94819CC1B   |	NTLM   |     	n63umy8lkf4i  |
+-----------------------------------------------------------------------
+
 
 >> SHA512CRYPT <<
 
+Hash: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
+Salt: aReallyHardSalt
 
->> HMAC-SHA1 <<
+
+Salting = Hash değeri oluşturulurken araya farklı karakterler atarak hash değerinin kırılmasını daha da zorlaştırmaktır .
+Salt değeri verilmese dahi hash içindedir . Salt değeri verilirse kırılackatır . Aksi takdirde kırılamaz.  
+
+" 12345 " hash değerine sahip bir algoritma kolay kırılacaktır . Fakat bu hashe " xyzv  " değerlerini salting yöntemiyle  eklersek hash kırılması çok daha zorlaşır .
+Karıştırılan hash değeri ise buna benzer . " x123y45v  "
+
+
+İlk önce araçlarla hash türünü belirliyoruz.Hashidentifier ve hashid ile hash türü içn herhangi bir değere ulaşamıyoruz. 
+Daha sonra sitelere yönelip orada türünü bulmaya çalışıyoruz. Daha sonra bu hash türünün " SHA512CRYPT " olduğunu görüyoruz .
+SHA512 türünün biraz daha farklı bir versiyonudur .
+
+Daha sonra hash kodunu bulabilmek için hashcat aracını kullanıyoruz. Aşağıdaki komutu yazarak hash  kodunu buluyoruz.
+
+------------------------------------------------
+|   hashcat -h | grep sha512crpyt	       |
+------------------------------------------------
+
+
+Aşağıdaki komutla hash kırılıyor .
+--------------------------------------------------------------------------------------------------------
+|   hashcat -m 1800 sha512crypt /root/Masaüstü/hash.txt  /usr/share/wordlists/rockyou.txt	       |
+--------------------------------------------------------------------------------------------------------
+
+hash :waka99
+
+
+
+
+>> HMAC-SHA1<<
+Hash: e5d8870e5bdd26602cab8dbe07a942c8669e56d6
+
+Salt: tryhackme
+
+
+Hash kırılırken salt değeri de verilmek zorunda aksi takdirde hash kırılması imkansız . 
+Hashidentifier aracı ile hash türünü belirliyoruz .Türü SHA-1'dir.  Fakat hash salt edildiği için sadece sha-1 olamaz .
+ Biraz daha farklı bir değerin çıkması gerekir .
+- ÖR 
+     SHA-1  = V1
+     HMAC-SHA1 = V1.1
+
+Hashcat ile tam olarak türünü öğrenecğiz .  Hashcat'e bu komutu yazdığımızda sha1 türleri çıkıyor .
+
+-----------------------------------
+|    hashcat -h | grep sha1	  |
+-----------------------------------
+
+salt olan kodu 160'dır. Kodu öğrendiğimize göre artık hash'i kırabiliriz .
+
+
+
+
+>>> KAYNAKÇA <<<
+(MD5)
+https://tr.wikipedia.org/wiki/MD5
+
+(SHA1)
+https://www.bgasecurity.com/2012/03/parola-krma-saldrlarnda-hashcat-kullan/
+
+
+<!-- writer by HY --> 
